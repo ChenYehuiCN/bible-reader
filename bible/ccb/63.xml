@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template color="#e47f31" ltitle="New Testament Letter Titus" stitle="Ti" title="Titus" value="63">
+    <foreword title="Introduction" value="0">
+        <h4>Titus</h4>
+        <br/>
+        <p>Like Timothy, Titus is one of Paul’s assistants officially consecrated to the service of the Gospel, who visited the churches with the very authority of Paul.</p>
+        <br/>
+        <p>The commentary will be brief since this letter is very similar to the two letters to Timothy.</p>
+    </foreword>
+    <chapter title="Chapter 1" value="1">
+        <p value="1">From Paul, servant of God, apostle of Christ Jesus, at the service of God’s chosen people, so that they may believe and reach the knowledge of truth and godliness.</p>
+        <br/>
+		<p value="2">The eternal life we are waiting for was promised from the very beginning by God who never lies,</p>
+        <p value="3">and as the appointed time had come, he made it known through the message entrusted to me by a command of God, our Savior.</p>
+        <br/>
+		<p value="4">Greetings to you, Titus, my true son in the faith we share. May grace and peace be with you from God the Father and Christ Jesus our Lord.</p>
+        <br/><h4>On the elders of the Church</h4>
+<br/>
+<p value="5"><text tips="Ti 1,5 Titus had to organize the churches of Crete with leaders in every city. We do not know if the title overseer (in Greek, episcopos, from which comes bishop) was given to all these elders or presbyters, or if the title was reserved for those with executive duties. After a while, there was only one bishop in charge of the entire community. After the apostles' death, bishops served as their representatives and ruled the Church with the same authority. What Paul says here about the requirements for a presbyter or bishop is the same as what we have in 1 Timothy. We may note the following: - Married only once. Obviously it is not necessary to be married, but as men of a certain age, usually married, were the ones who were consecrated, Paul is here considering the frequent case of Christians who had been divorced and remarried several times while they were still pagans. - He must be beyond reproach, not he alone but his family as well. His fitness to preside is essential to his vocation, and he will not be accepted by the community if his background gives an unfavorable witness. - He must be hospitable. The Church is communion more than organization. Everyone must be welcomed and feel at home in the house of the presbyter or the bishop. He must also welcome the brothers and elders from other districts in order to assure unity and communion among different communities. The human balance in this bishop is then part of his vocation: he cannot be a man of uneven character whose interventions could wound, whose authority ignores the elementary rules of social contact and respect of persons: although known for their faith, Church leaders are often reproached for not knowing how to act in a human way. The paragraph 2-16 is a cautionary measure against the return to a religion of practices and abstinences inspired by Jewish law. To the pure, everything is pure: in the spirit of Mt 15:11 and Rom 14:20. That will never mean to say that our intentions (our intentions are always pure!) justify our actions. That would be to forget that the tree (the desire urging us to act) is judged by its fruit; these cannot be justified if they are contrary to the will of God manifested in the Law.">1</text>I left you in Crete because I wanted you to put right what was defective and appoint elders in every town, following my instructions.</p>
+        <p value="6">They must be blameless, married only once, whose children are believers and not open to the charge of being immoral and rebellious.</p>
+        <p value="7">Since the overseer (or bishop) is the steward of God’s house, he must be beyond reproach: not proud, hot-headed, over-fond of wine, quarrelsome or greedy for gain.</p>
+        <br/>
+		<p value="8">On the contrary he must be hospitable, a lover of what is good, wise, upright, devout and self-controlled.</p>
+        <p value="9">He must hold to the message of faith just as it was taught, so that, in his turn, he may teach sound doctrine and refute those who oppose it.</p>
+        <br/>
+		<p value="10">You know that there are many rebellious minds, talkers of nonsense, deceivers, especially the party of the circumcised.</p>
+        <p value="11">They have to be silenced when they go around disturbing whole families, teaching for low gain what should not be taught.</p>
+        <p value="12">A Cretan, one of their own prophets has said, “Cretans: always liars, wicked beasts and lazy gluttons.”</p>
+        <p value="13">This is true. For this reason rebuke them sharply if you want them to have a sound faith</p>
+        <p value="14">instead of heeding Jewish fables and practices of people who reject the truth.</p>
+        <br/>
+		<p value="15">To the pure everything is pure; to the corrupt and unbelieving nothing is pure: their minds and consciences have been defiled.</p>
+        <p value="16">They pretend to know God but deny him with their deeds. They are detestable, disobedient and unfit for doing anything good.</p>
+    </chapter>
+    <chapter title="Chapter 2" value="2">
+        <h4>Live as responsible persons</h4>
+<br/>
+<p value="1"><text tips="Ti 2,1 Here, there is a reminder of the duties of the faithful according to their situation in life. In the society of the time, far simpler than ours, all was reduced to slaves or the free, men or women, young or old. In our age, it would be necessary to ask people to look more closely at their responsibilities in life. There is insistence on our duty to bear fruit: the following paragraph will say that if Christ has sacrificed himself for us, such a sacrifice must not remain fruitless. God Savior has revealed his loving plan to all (v. 11). Here Paul returns to the essence of the Christian message: it is a gift of God and so it must produce the fruits of goodness and reconciliation and draw people away from the self-centeredness which paralyzes them. He gave himself for us (v. 14). As in Eph 5:25 and 1Cor 11:25, Jesus' sacrifice is primarily to purify those who become his people. In fact, it is by looking at Jesus that, little by little, we let go of what is evil and violent in us. Teaching us to reject an irreligious way of life (v. 12). God brings us to purify our motives and our hearts. - Responsible, because the practice of Christian living brings us to a more serious attitude. - Just with others by being primarily just with God. - Serving God: this means first of all being sincere with God.">1</text>Let your words strengthen sound doctrine.</p>
+        <p value="2">Tell the older men to be sober, serious, wise, sound in faith, love and perseverance.</p>
+        <br/>
+		<p value="3">The older women in like manner must behave as befits holy women, not given to gossiping or drinking wine,</p>
+        <p value="4">but as good counselors, able to teach younger women to love their husbands and children,</p>
+        <p value="5">to be judicious and chaste, to take care of their households, to be kind and submissive to their husbands, lest our faith be attacked.</p>
+        <br/>
+		<p value="6">Encourage the young men to be self-controlled.</p>
+        <p value="7">Set them an example by your own way of doing. Let your teaching be earnest and sincere,</p>
+        <p value="8">and your preaching beyond reproach. Then your opponents will feel ashamed and will have nothing to criticize.</p>
+        <br/>
+        <p value="9">Teach slaves to be subject to their masters, and to give satisfaction in every respect, instead of arguing.</p>
+        <p value="10">They must not steal from them but be trust worthy. In this way they will draw everyone to admire the doctrine of God our Savior.</p>
+        <br/>
+        <p value="11">For the grace of God has appeared, bringing salvation to all,</p>
+        <p value="12">teaching us to reject an irreligious way of life and worldly greed, and to live in this world as responsible persons, upright and serving God,</p>
+        <p value="13">while we await our blessed hope – the glorious manifestation of our great God and Savior Christ Jesus.</p>
+        <p value="14">He gave himself for us, to redeem us from every evil and to purify a people he wanted to be his own and dedicated to what is good.</p>
+        <br/>
+		<p value="15">Teach these things, encourage and reprove with all authority. Let no one despise you.</p>
+    </chapter>
+    <chapter title="Chapter 3" value="3">
+        <p value="1"><text tips="Ti 3,1 Speaking to the first Christian generation, Paul had underscored the transformation of the one who has been converted: becoming Christian involved breaking away from the past. In the following generation, while the Church was being established in various provinces of the Roman Empire, the hope of an imminent return of Christ began to decline. Thus, if the Church is called to last, it is important for the Christian to appear, first of all, as a model of an ordered and just life. Since obedience was then the pillar of family and social life, this letter insists that the believer must obey from the heart in every aspect which is not opposed to his faith. In the teaching of the New Testament, it will be easy to speak of contradictions, or opportunism: here, social loyalty and family virtues; or else ignoring one's father and mother. Actually, they are not contradictory: obedience coming from the heart as long as there is no opposition to the will of God, but a complete rejection of dependence when a human authority presumes to replace God, disregarding the conscience and rights of a person. What remains here is an insistence on social virtues; it was the same in 2:5; 2:10 and also 1Tm 2:2 and 2:11. Ti 3,8 Possible translations for the word Paul uses here are sects or heresies (v. 10): they are two aspects of a Greek word that means selection. Instead of accepting the faith as the Church transmits it, a heretic chooses what seems most important to her and what she likes the most. She rejects part of the message and leaves the Church taking with her disciples to form her own group. In preferring her own judgment to the doctrine of the Church, she loses the in-depth faith attitude, she destroys unity and condemns herself, even though she keeps a major part of the message.">1</text>Remind the believers to be sub-missive to rulers and authorities, to be obedient and to be ready for every good work.</p>
+        <p value="2">Tell them to insult no one; they must not be quarrelsome but gentle and understanding with everyone.</p>
+        <br/>
+		<p value="3">We ourselves were once foolish, disobedient and misled. We were slaves of our desires, seeking pleasures of every kind. We lived in malice and envy, hateful and hating each other.</p>
+        <p value="4">But God our Savior revealed his eminent goodness and love for humankind</p>
+        <p value="5">and saved us, not because of good deeds we may have done but for the sake of his own mercy, to the water of rebirth and renewal by the Holy Spirit</p>
+        <p value="6">poured over us through Christ Jesus our Savior,</p>
+        <p value="7">so that having been justified of his grace we should become heirs in hope of eternal life.</p>
+        <br/>
+		<p value="8"><text tips="Ti 3,1 Speaking to the first Christian generation, Paul had underscored the transformation of the one who has been converted: becoming Christian involved breaking away from the past. In the following generation, while the Church was being established in various provinces of the Roman Empire, the hope of an imminent return of Christ began to decline. Thus, if the Church is called to last, it is important for the Christian to appear, first of all, as a model of an ordered and just life. Since obedience was then the pillar of family and social life, this letter insists that the believer must obey from the heart in every aspect which is not opposed to his faith. In the teaching of the New Testament, it will be easy to speak of contradictions, or opportunism: here, social loyalty and family virtues; or else ignoring one's father and mother. Actually, they are not contradictory: obedience coming from the heart as long as there is no opposition to the will of God, but a complete rejection of dependence when a human authority presumes to replace God, disregarding the conscience and rights of a person. What remains here is an insistence on social virtues; it was the same in 2:5; 2:10 and also 1Tm 2:2 and 2:11. Ti 3,8 Possible translations for the word Paul uses here are sects or heresies (v. 10): they are two aspects of a Greek word that means selection. Instead of accepting the faith as the Church transmits it, a heretic chooses what seems most important to her and what she likes the most. She rejects part of the message and leaves the Church taking with her disciples to form her own group. In preferring her own judgment to the doctrine of the Church, she loses the in-depth faith attitude, she destroys unity and condemns herself, even though she keeps a major part of the message.">2</text>This is the truth. I want you to insist on these things, for those who believe in God must excel in good deeds; that is what matters and is profitable to us.</p>
+        <p value="9">Avoid stupid arguments, discussions about genealogies and quarrels about the Law, for they are useless and unimportant.</p>
+        <br/>
+		<p value="10">If anyone promotes sects in the church, warn him once and then a second time. If he still continues, break with him,</p>
+        <p value="11">knowing that such a person is misled and sinful and stands self-condemned.</p>
+        <br/>
+		<p value="12">When I send Artemas or Tychicus to you, try to come to me at Nicopolis as soon as possible, for I have decided to spend the winter there.</p>
+        <p value="13">Do your best to send Zenas the lawyer and Apollos on their way soon, and see to it that they have everything they need.</p>
+        <p value="14">Our people must learn to be outstanding in good works and to face urgent needs, instead of remaining idle and useless.</p>
+        <br/>
+		<p value="15">All who are with me send greetings. Greet those who love us in the faith. Grace be with you all.</p>
+    </chapter>
+</template>

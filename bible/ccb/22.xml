@@ -1,0 +1,2197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template color="#9b5cb5" ltitle="Old Testament Job" stitle="Jb" title="Job" value="22">
+    <foreword title="Introduction" value="0">
+        <h3>Job</h3>
+        <br/>
+        <p>The Book of Job is much more than a “story.” It deals in depth with the major questions of the human condition. The misfortunes of Job — after having been abundantly blessed all his life, he is reduced to utmost misery — are merely a pretext to have us reflect on this reality: human life on earth is not satisfying. Suffering and death would not be so dark if it were not for this malaise or scandal that comes from the absence of God in our world.</p>
+        <br/>
+        <p>Job only needs to contemplate nature to believe in God and divine providence. However, his misfortunes bring him to reconsider the concept he had of a tacit agreement between the just man, himself and the just God.</p>
+        <br/>
+        <p>Job accuses and cries out to God with all the force of his thwarted hope and, in the end, God will have to intervene.</p>
+        <br/>
+        <h4>The Book of Job</h4>
+        <br/>
+        <p>The starting point of this book is a popular tale found in the first and last pages (1:1—2:13 and 42:10-17): the story of the holy man Job. Yahweh had tested him by taking everything away from him but in spite of that, Job remained faithful. In the end, God gave everything back to him.</p>
+        <br/>
+        <p>The moral was somewhat simplistic. Then, an unknown author wrote the poems of chapters 3—41. There, a very different Job from the first one accuses the human condition and his three friends confront him with the answers of traditional wisdom.</p>
+        <br/>
+        <p>These chapters constitute the most sizable collection of sapiential literature in the Bible. It may be helpful to recall that this new section presents a view of life that is very different from the view proposed in the books of the Law and the prophetic books. These were mostly interested in the history of Israel, the ups and downs of the Sinai covenant that had transformed Israel into a people set apart and the bearer of a universal mission.</p>
+        <br/>
+        <p>On the other hand, here the history and vocation of Israel are forgotten (seemingly, at least). The author has returned to what constitutes the lives of all humans, whatever their countries or religions may be. Human beings are before their destiny with no other revelation than what nature is telling them in a thousand ways, what the tradition of their ancestors has handed down to them and has interpreted for them. Human beings are not in a world without God. On the contrary, they see God’s presence everywhere. Yet, they are first conditioned by their material existence and the fact that so many people live in inhuman conditions raises questions about God’s honesty and the way God treats human beings.</p>
+        <br/>
+        <p>Job’s discourses are strongly marked by the culture of his time. Above all, he insists on being known as a just man: honor and shame are decisive criteria for tribes. Hence, the need to appeal to an arbitrator or a tribunal to clear his good name when his misfortunes have made him look guilty. The book is going to show that there is no answer: God’s intervention in chapters 38—42 moves in a different direction from the conclusion in 42:10-17. We remain with our malaise and we will not be healed before we see God.</p>
+    </foreword>
+    <chapter title="Chapter 1" value="1">
+        <h4>The Traditional Figure of Job</h4>
+<br/>
+<p value="1"><text tips="Jb 1,1 Job lives in a foreign pagan land (Uz would be in the southern part of Palestine) in ancient times. His position is enviable: he is a leader of nomads, somewhat like Abraham, and lacks nothing. Yet he is only a pawn in world politics, or better, in heavenly politics. God holds a council with the sons of God, namely, the angels, and looks at things which escape Job. In this case, God is challenged by Satan, the enemy, the spirit who promotes evil, and in spite of himself God has to test Job in order to defend his own honor. And so, from the very start, humans are put in their place. They are not the center of the world, nor can they demand that God stop the course of history for their sake. This intervention of Satan is one of the means to which believers spontaneously resort to justify God. Because, in the final analysis, that is where the problem lies. As long as we live without God, no one is responsible for evil except ourselves. If we have good and evil gods, we know whom to blame. If there is only one God, he is responsible for both good and evil and Job's words in 2:10 also apply to him. Curse God and die! (2:3) Job's wife speaks foolishly, with reproaches to God which are always hopeless.">1</text>Job, a blameless and upright man who feared God and shunned evil, once lived in the land of Uz.</p>
+        <p value="2">He had seven sons and three daughters.</p>
+        <p value="3">Owner of seven thousand sheep, three thousand camels, five hundred yoke of oxen, five hundred donkeys and a large number of servants, he was considered the greatest man among the people of the East.</p>
+        <br/>
+        <p value="4">His sons used to take turns holding banquets in their homes and they would invite their three sisters to dine and drink with them.</p>
+        <p value="5">After each series of banquets, Job would send for his sons and daughters and have them purified. He would rise early in the morning, offer a holocaust for each of his children, thinking, “Perhaps they have sinned and blasphemed God in their hearts.” This had been quite a routine for Job.</p>
+        <br/>
+        <p value="6">One day the heavenly beings came to present themselves before Yahweh, and Satan came with them.</p>
+        <p value="7">Yahweh asked Satan, “Where have you been?”<br/>Satan answered, “Going up and down the earth, roaming about.”</p>
+        <br/>
+        <p value="8">Yahweh asked again, “Have you noticed my servant Job? No one on earth is as blameless and upright as he, a man who fears God and avoids evil.”</p>
+        <br/>
+        <p value="9">But Satan returned the question, “Does Job fear God for nothing?</p>
+        <p value="10">Have you not built a protective wall around him and his family and all his possessions? You have blessed and prospered him, with his livestock all over the land.</p>
+        <p value="11">But stretch out your hand and strike where his riches are, and I bet he will curse you to your face.”</p>
+        <br/>
+        <p value="12">Yahweh said to Satan, “Very well, all that he has is in your power. But do not lay a finger upon the man himself.” So Satan left the presence of Yahweh.</p>
+        <br/>
+        <p value="13">One day, while his sons and daughters were feasting in the house of their eldest brother,</p>
+        <p value="14">a messenger came to Job and said, “Your oxen were plowing, and your donkeys were grazing nearby</p>
+        <p value="15">when the Sabaeans came and carried them off. They killed the herdsmen. I alone escaped to tell you.”</p>
+        <br/>
+        <p value="16">While he was still speaking, another messenger came, “God’s fire fell from the sky and burned all your sheep and the shepherds as well. I alone have escaped to tell you.”</p>
+        <br/>
+        <p value="17">He had hardly finished speaking when another messenger arrived, “Three raiding teams of Chaldeans have killed your servants and carried off your camels. I alone have escaped to tell you.”</p>
+        <br/>
+        <p value="18">He was still speaking when another messenger came and said to Job, “Your sons and daughters were eating and drinking in the house of their eldest brother</p>
+        <p value="19">when suddenly a great wind blew across the desert and struck the house. It collapsed on the young people and they all died. I alone have escaped to tell you.”</p>
+        <br/>
+        <p value="20">In grief Job tore his clothes and shaved his head. Then he fell to the ground and worshiped,</p>
+        <p value="21">saying,<br/>“Naked I came from my mother’s womb,<br/>naked shall I return.<br/>Yahweh gave, Yahweh has taken away.<br/>Blessed be his name!”</p>
+        <br/>
+        <p value="22">In spite of this calamity, Job did not sin by blaspheming God.</p>
+    </chapter>
+    <chapter title="Chapter 2" value="2">
+        <p value="1">Once more the heavenly beings came to present themselves before Yahweh, and again Satan was with them.</p>
+        <p value="2">Yahweh asked Satan, “Where have you been?”<br/>Satan answered, “Going up and down the earth, roaming about.”</p>
+        <br/>
+        <p value="3">Yahweh asked again, “Have you noticed my servant Job? No one on earth is as blameless and upright as he, a man who fears God and avoids evil. He still holds fast to his integrity even if you provoked me to ruin him without cause.”</p>
+        <br/>
+        <p value="4">Satan replied, “Skin for skin! For his own life, anyone will give everything he owns.</p>
+        <p value="5">But lay your hand against his own flesh and bones and he will curse you to your face.”</p>
+        <br/>
+        <p value="6">Yahweh said to Satan, “Very well, he is in your power. But spare his life.”</p>
+        <br/>
+        <p value="7">So Satan left the presence of Yahweh and afflicted Job with festering sores from the soles of his feet to the top of his head.</p>
+        <p value="8">Job took a potsherd to scrape himself and sat among the ashes.</p>
+        <br/>
+        <p value="9">His wife said to him, “Do you still hold on to your integrity? Curse God and die!”</p>
+        <br/>
+        <p value="10">Job replied, “You talk foolishly. If we receive good things from God, why can’t we accept evil from him?” In spite of this calamity, Job did not utter a sinful word.</p>
+        <br/>
+        <h3>Here Begin the Poems of Job</h3>
+        <br/>
+        <p value="11"><text tips="Jb 2,11 As we remarked in the introduction, this is the beginning of the dialogue on suffering, leaving aside the story of Job, the popular figure who accepted God's will without arguing as we saw in chapter 2. Cursed be the day I was born (v. 3). These first verses repeat what Jeremiah said in a moment of despair (see Jer 20: 14). God's friends have at times spoken in the same way, others - less solid - have thought of suicide. Why is light given to the miserable... whose path has vanished (vv. 20-23)? Why are children born crippled or blind, or destined for an atrocious death? We would be wrong to only think of the marginalized or those crushed by misfortune. It's in the world where nothing is wanting where people are not desperate, but without hope in the midst of gadgets: it is there where young couples opt for death in not wanting to have children. In past centuries people were driven by the uncontainable energy of life. They lived and made sacrifices for the survival of their people. Our parents worked and procreated without asking themselves why. When people reach maturity in critical thinking, they need an answer to this question: Why live if, in the end, life leads nowhere?">1</text>Three of Job’s friends – Eliphaz the Temanite, Bildad the Shuhite, and Zophar the Naamathite – heard of the misfortune that came upon him. They set out from their own homes and journeyed together to offer their sympathy and consolation to Job.</p>
+        <p value="12">Failing to recognize him from the distance, they wept aloud, tore their garments and poured dust upon their heads.</p>
+        <p value="13">For seven days and seven nights, they sat on the ground beside him. They did not say a word to Job, for they saw how terribly he suffered.</p>
+    </chapter>
+    <chapter title="Chapter 3" value="3">
+        <h4>May that day perish when I was born</h4>
+        <br/>
+        <p value="1">At length it was Job who spoke, cursing the day of his birth.</p>
+        <p value="2">This is what he said:</p>
+        <br/>
+        <p value="3">Cursed be the day I was born,<br/>and the night which whispered:<br/>A boy has been conceived.</p>
+        <br/>
+        <p value="4">May that day be dark,<br/>may God on high ignore it.<br/>May no light shine upon it.</p>
+        <br/>
+        <p value="5">May the shadow of death claim it as its own.<br/>May a cloud settle over it;<br/>may blackness obstruct its light.</p>
+        <br/>
+        <p value="6">Let darkness swallow that night<br/>let it not add to the rest of the year<br/>let it not be included in the month.</p>
+        <br/>
+        <p value="7">That night – oh, let it be barren,<br/>untouched by shouts of joy.</p>
+        <br/>
+        <p value="8">Let it be cursed by those who hate the light,<br/>sorcerers who call on the Devil.</p>
+        <br/>
+        <p value="9">Let its morning stars no longer shine;<br/>let it wait for light in vain<br/>and never see the first rays of dawn,</p>
+        <br/>
+        <p value="10">since it did not close the womb<br/>to keep my eyes from seeing doom.</p>
+        <br/>
+        <p value="11">Why didn’t I die at birth,<br/>or come from the womb without breath?</p>
+        <br/>
+        <p value="12">Why the knees that received me,<br/>why the breasts that suckled me?</p>
+        <br/>
+        <p value="13">For then I should have lain down<br/>asleep and been at rest</p>
+        <br/>
+        <p value="14">with kings and rulers of the earth<br/>who built for themselves lonely tombs;</p>
+        <br/>
+        <p value="15">or with princes who had gold to spare<br/>and houses stuffed with silver.</p>
+        <br/>
+        <p value="16">Why was I not stillborn,<br/>like others who did not see the light of morn?</p>
+        <br/>
+        <p value="17">There the trouble of the wicked ceases,<br/>there the weary find repose.</p>
+        <br/>
+        <p value="18">There the prisoners are at ease;<br/>they no longer hear the taskmaster’s voice.</p>
+        <br/>
+        <p value="19">Great and small fare equally there,<br/>where the slave is free from his master.</p>
+        <br/>
+        <p value="20">Why is light given to the miserable,<br/>and life to the embittered?</p>
+        <br/>
+        <p value="21">To those who long for death<br/>more than for hidden treasure?</p>
+        <br/>
+        <p value="22">They rejoice at the sight of their end,<br/>they are happy upon reaching the grave.</p>
+        <br/>
+        <p value="23">Why give light to a man whose path has vanished,<br/>whose ways God blocks at every side?</p>
+        <br/>
+        <p value="24">Instead of bread I feed on sighs.<br/>My groans are like water poured out.</p>
+        <br/>
+        <p value="25">For what I fear has come upon me,<br/>what I dread has befallen me.</p>
+        <br/>
+        <p value="26">I find no rest, I find no ease;<br/>only turmoil, nothing of peace!</p>
+    </chapter>
+    <chapter title="Chapter 4" value="4">
+        <h4>No one is just before God</h4>
+        <br/>
+        <p value="1"><text tips="Jb 4,1 Eliphaz is a believer. Faced with Job's grief, he repeats what was commonly said in those days: - God is just in this life: he rewards the just with health and prosperity. - If you are sick and abandoned, it is because you have sinned. Eliphaz is not wrong in recalling that the wicked are afflicted with misfortune and that God's providence favors his friends. The Bible does state that, as anyone can easily verify. The prophets did not hesitate to repeat to Israel that its difficulties were the consequence of its sins. Deuteronomy also declares this (Dt 30:15-20) and the Book of Judges claims to prove it through historical events (Jgs 2:11-19). Eliphaz claims he is speaking because of a revelation from God such as many prophets had in their dreams. He is surely pointing out the truth: can a mortal be just in the eyes of God? Can anyone be pure before God? People complain that life is meaningless, but maybe sin prevents them from seeing its meaning. Have you seen a guiltless man perish? (v. 7). People of faith understand that God brings the powerful down and he exalts the humble, but daily experience often seems to show the opposite. According to the Gospel, wealth can be a negative sign. Eliphaz speaks with such assurance because he has not suffered in his own flesh, nor does he pay enough attention to those who suffer.">1</text>Eliphaz the Temanite spoke next:</p>
+        <br/>
+        <p value="2">Shall we speak? Do you mind?<br/>For who could remain silent?</p>
+        <br/>
+        <p value="3">Remember how you have taught many others,<br/>how you have strengthened their feeble hands.</p>
+        <br/>
+        <p value="4">Your words have supported those who wavered,<br/>have steadied the knees that faltered.</p>
+        <br/>
+        <p value="5">But when your turn has come, you are discouraged;<br/>as soon as you are struck, you are dismayed.</p>
+        <br/>
+        <p value="6">Should you not rely on your piety,<br/>and find assurance in your integrity?</p>
+        <br/>
+        <p value="7">Have you seen a guiltless man perish,<br/>or an upright man done away with?</p>
+        <br/>
+        <p value="8">As I see it, those who plow evil<br/>or those who sow trouble reap the same.</p>
+        <br/>
+        <p value="9">By the breath of God they are swept away;<br/>by the blast of his wrath they are destroyed.</p>
+        <br/>
+        <p value="10">The lion may roar and growl; it will fall,<br/>the teeth of its cubs will be broken.</p>
+        <br/>
+        <p value="11">The lion will die for lack of prey,<br/>and the whelps of its mate will stray.</p>
+        <br/>
+        <p value="12">I had a secret revelation;<br/>a whisper of it reached my ear.</p>
+        <br/>
+        <p value="13">Amid thoughts from night visions,<br/>when people are heavily wrapped in slumber,</p>
+        <br/>
+        <p value="14">I was seized with fear and trembling<br/>that shook me to my very bones.</p>
+        <br/>
+        <p value="15">A spirit passed over my face,<br/>and the hair of my body stood on end.</p>
+        <br/>
+        <p value="16">It stopped and stood before my eyes,<br/>but I could not make out what it was.<br/>Silence… and then – a voice was heard:</p>
+        <br/>
+        <p value="17">“Can a mortal be just in the eyes of God?<br/>Can a man be pure before his Maker?</p>
+        <br/>
+        <p value="18">If God can put no trust in his servants,<br/>if he can charge his angels with error,</p>
+        <br/>
+        <p value="19">how much more those who live in houses of clay,<br/>whose foundation is in the dust,<br/>who are crushed as easily as moths!</p>
+        <br/>
+        <p value="20">Between dawn and dusk they perish,<br/>and unheeded, vanish forever,</p>
+        <br/>
+        <p value="21">Their tent has been unpegged<br/>and they died without knowing why.</p>
+    </chapter>
+    <chapter title="Chapter 5" value="5">
+        <p value="1">I have seen a fool taking root when<br/>suddenly his household collapsed.</p>
+        <br/>
+        <p value="2">His children went about without security,<br/>crushed in court without a defender.</p>
+        <br/>
+        <p value="3">The hungry consumed his harvest<br/>and carried it to a hiding place;<br/>his surplus was taken away,<br/>the thirsty hankered after his wealth.</p>
+        <br/>
+        <p value="4">For affliction comes not from the earth,<br/>nor does sorrow sprout from the ground;</p>
+        <br/>
+        <p value="5">humans are those who carry about trouble,<br/>as an eagle in the heights brings down lightning flash.</p>
+        <br/>
+        <p value="6">Resentment kills the fool,<br/>and anger slays the simple.</p>
+        <br/>
+        <p value="7">Call then, but who will answer you?<br/>Who of the Saints will you turn to?</p>
+        <br/>
+        <p value="8">If I were you, I would appeal to God<br/>and lay before him my case,</p>
+        <br/>
+        <p value="9">for wonders are past all reckoning,<br/>his miracles beyond all counting.</p>
+        <br/>
+        <p value="10">He pours rain down on the earth<br/>and sends water upon the fields.</p>
+        <br/>
+        <p value="11">He sets the lowly on high,<br/>turns grief into joy.</p>
+        <br/>
+        <p value="12">He wrecks the plans of the crafty,<br/>so that their hands achieve no success.</p>
+        <br/>
+        <p value="13">He traps the clever in their devices<br/>and puts an end to the schemes of the wily.</p>
+        <br/>
+        <p value="14">Darkness comes upon them in the daytime;<br/>they grope at noon as in the night.</p>
+        <br/>
+        <p value="15">He rescues the despoiled from the despoiler,<br/>the weak from the hands of the violent.</p>
+        <br/>
+        <p value="16">Thus hope comes to the lowly,<br/>and injustice shuts its mouth.</p>
+        <br/>
+        <p value="17">Blessed is the one whom God corrects;<br/>reject not, therefore, the lessons of the Almighty,</p>
+        <br/>
+        <p value="18">He cures the wounds he has inflicted;<br/>he strikes but he also heals.</p>
+        <br/>
+        <p value="19">From six troubles he will rescue you;<br/>at the seventh no harm will touch you.</p>
+        <br/>
+        <p value="20">In famine he saves you from death;<br/>in war, from the threat of the sword.</p>
+        <br/>
+        <p value="21">You will be protected from the lash of the tongue,<br/>and have no dread of marauding bands.</p>
+        <br/>
+        <p value="22">You will laugh at destruction and want;<br/>and have no fear of the wild animals.</p>
+        <br/>
+        <p value="23">No more stones in your fields, the soil will serve you,<br/>and wild animals be at peace with you.</p>
+        <br/>
+        <p value="24">You will find your tent secure,<br/>your household untouched when you come home.</p>
+        <br/>
+        <p value="25">You will have children in plenty<br/>and descendants like the grass of the hills.</p>
+        <br/>
+        <p value="26">You will come to the grave in a ripe age,<br/>like a sheaf of grain gathered in season.</p>
+        <br/>
+        <p value="27">This we have examined and found true.<br/>This we have heard, and you should know.</p>
+    </chapter>
+    <chapter title="Chapter 6" value="6">
+        <h4>What is man that you keep him in mind</h4>
+        <br/>
+        <p value="1"><text tips="Jb 6,1 Job is bitter towards all these friends who make speeches but do not bring him peace. Now he begs God to let him die before he rebels against him under the pressure of evil (6:8-10). In 6:15-30, Job emphasizes the abyss which separates those who suffer from those who come to console. How many disguises at a patient's bedside? Those consoling the afflicted want to hide their own confusion before pain and their inability to really lighten suffering. However, the sick person is not fooled and feels more isolated in realizing he or she is not told the truth. In chapter 7, Job addresses an absent God. Job does not know God-Father and the trial brings out in him suspicions against a jealous God who watches people in order to punish them. Yet Job's complaint against God reminds us of the friction between people who love each other, and precisely because they love each other they are more demanding. What is man that you make much of him (v. 17)? If God is watching over his favorite creatures at all times, could it not be because he cannot live without them?">1</text>Job replied:</p>
+        <br/>
+        <p value="2">If only my anguish could be measured<br/>and my misery put on the scales;</p>
+        <br/>
+        <p value="3">they would outweigh the sands of the seashore!<br/>It is for this that I speak impetuously.</p>
+        <br/>
+        <p value="4">Pierced by the arrows of the Almighty,<br/>my spirit absorbs their poison;<br/>my heart fails before the terrors of God.</p>
+        <br/>
+        <p value="5">Does a wild ass bray when it has fodder?<br/>Does an ox bellow when it has grass?</p>
+        <br/>
+        <p value="6">What taste would food have without salt?<br/>What flavor is there in the white of an egg?</p>
+        <br/>
+        <p value="7">So everything is tasteless for me,<br/>I am bored with my bread.</p>
+        <br/>
+        <p value="8">Would that I get my request,<br/>that God grant me what I want –</p>
+        <br/>
+        <p value="9">that he would decide to crush me,<br/>let loose his hand and strike me down!</p>
+        <br/>
+        <p value="10">Then this at least would comfort me,<br/>my only joy in merciless dread,<br/>that I have not cursed the will of the Holy one.</p>
+        <br/>
+        <p value="11">Will I be able to go on hoping,<br/>what expectation to keep on waiting?</p>
+        <br/>
+        <p value="12">Have I the strength of stone,<br/>and is my flesh of bronze?</p>
+        <br/>
+        <p value="13">There is no one to help me,<br/>all aid has departed from me.</p>
+        <br/>
+        <p value="14">Friends without compassion<br/>made me lose the fear of the Almighty,</p>
+        <br/>
+        <p value="15">My brothers have been fickle,<br/>like the flowing of seasonal waters.</p>
+        <br/>
+        <p value="16">They were but melted ice<br/>running from under the snow.</p>
+        <br/>
+        <p value="17">But summer comes and the river dries,<br/>under the blazing sun no water is left.</p>
+        <br/>
+        <p value="18">Because of this caravans get lost,<br/>go to wastelands and perish.</p>
+        <br/>
+        <p value="19">The merchants of Tema search for the brooks,<br/>the travelers of Sheba look for them.</p>
+        <br/>
+        <p value="20">In vain they expected,<br/>they are frustrated on arriving there.</p>
+        <br/>
+        <p value="21">Now you too are unable to help me;<br/>you see a horror and draw back in fear.</p>
+        <br/>
+        <p value="22">Have I asked you to give me anything?<br/>Did I say, “Pay a ransom for me,</p>
+        <br/>
+        <p value="23">deliver me from the enemy<br/>or rescue me from a tyrant?”</p>
+        <br/>
+        <p value="24">Teach me and I will keep silent;<br/>show me where I have been wrong.</p>
+        <br/>
+        <p value="25">Honest words I must not resent,<br/>but what have your arguments shown?</p>
+        <br/>
+        <p value="26">Do you mean to scorn my words,<br/>or throw to the wind a cry of despair?</p>
+        <br/>
+        <p value="27">Would you cast lots for the orphan<br/>and bargain over your friend?</p>
+        <br/>
+        <p value="28">But now, give me your attention;<br/>surely I will not lie to your face.</p>
+        <br/>
+        <p value="29">Relent, and grant me justice;<br/>reconsider, my case is not yet tried.</p>
+        <br/>
+        <p value="30">Is there insincerity on my tongue?<br/>Have I misunderstood misery?</p>
+    </chapter>
+    <chapter title="Chapter 7" value="7">
+        <p value="1">Man’s life on earth is a thankless job,<br/>his days are those of a mercenary.</p>
+        <br/>
+        <p value="2">Like a slave he longs for the shade of evening,<br/>like a hireling waiting for his wages.</p>
+        <br/>
+        <p value="3">Thus I am allotted months of boredom and nights of grief and misery.</p>
+        <br/>
+        <p value="4">In bed I say, “When shall the day break?”<br/>On rising, I think, “When shall evening come?”<br/>and I toss restless till dawn.</p>
+        <br/>
+        <p value="5">My body is full of worms and scabs;<br/>my skin festers with its boils and cracks.</p>
+        <br/>
+        <p value="6">My days pass swifter than a weaver’s shuttle,<br/>heading without hope to their end.</p>
+        <br/>
+        <p value="7">My life is like wind, you well know it,<br/>O God; never will I see happiness again.</p>
+        <br/>
+        <p value="8">The eye that saw me will see me no more;<br/>when you look for me, I shall have gone.</p>
+        <br/>
+        <p value="9">As a cloud dissolves and vanishes,<br/>so he who goes to the grave never returns.</p>
+        <br/>
+        <p value="10">He will never come back to his house;<br/>or be seen by his household.</p>
+        <br/>
+        <p value="11">So I will not restrain my words,<br/>I will speak out in anguish;<br/>and complain with embittered soul,</p>
+        <br/>
+        <p value="12">“Am I the sea or a monster of the deep,<br/>that you keep me under watch?”</p>
+        <br/>
+        <p value="13">When I think my bed will comfort me<br/>and my couch will soothe my pain,</p>
+        <br/>
+        <p value="14">then you frighten me with dreams<br/>and terrify me with visions,</p>
+        <br/>
+        <p value="15">I would prefer death by strangling<br/>rather than such a trial.</p>
+        <br/>
+        <p value="16">See I am dying, never to live again.<br/>Leave me alone; I am finished.</p>
+        <br/>
+        <p value="17">What is man that you make much of him,<br/>that you give him so much attention,</p>
+        <br/>
+        <p value="18">that every morning you examine him<br/>and check him all the time?</p>
+        <br/>
+        <p value="19">Will you never take your eyes off me<br/>and give me respite to swallow my spittle?</p>
+        <br/>
+        <p value="20">Suppose I sinned, what has it done to you,<br/>O keeper of humans?<br/>Why choose me as your target?<br/>Have I become a burden to you?</p>
+        <br/>
+        <p value="21">Why not pardon my sin<br/>and take away my guilt?<br/>For in the dust I will soon lie down;<br/>when you search for me, I shall have gone.</p>
+    </chapter>
+    <chapter title="Chapter 8" value="8">
+        <h4>Does God pervert judgment?</h4>
+        <br/>
+        <p value="1">Bildad the Shuhite spoke:</p>
+        <br/>
+        <p value="2">How long will you say such things?<br/>Your words are long-winded blusterings.</p>
+        <br/>
+        <p value="3">Does God pervert judgment?<br/>Does the Almighty distort justice?</p>
+        <br/>
+        <p value="4">If your children did him wrong,<br/>he has made them pay for their sins.</p>
+        <br/>
+        <p value="5">But if you will have recourse to God<br/>and plead with the Almighty,</p>
+        <br/>
+        <p value="6">if you are faultless and righteous,<br/>even now he will care for you<br/>and restore you to your rightful place.</p>
+        <br/>
+        <p value="7">And your prosperity will be such<br/>as to make you forget former times.</p>
+        <br/>
+        <p value="8">Inquire of the past generations<br/>and learn from their ancestors’ experience;</p>
+        <br/>
+        <p value="9">for born but yesterday, we know nothing<br/>and our days on earth are but a shadow.</p>
+        <br/>
+        <p value="10">They will correct and teach you<br/>with words that come from the heart.</p>
+        <br/>
+        <p value="11">Can papyrus thrive without marsh?<br/>Can reeds flourish without water?</p>
+        <br/>
+        <p value="12">Even if still growing and uncut,<br/>they wither more quickly than any plant.</p>
+        <br/>
+        <p value="13">Such is the end of those who forget God;<br/>the hope of the godless perishes.</p>
+        <br/>
+        <p value="14">His trust is hanging by a thread;<br/>a spider’s web is what he relies on.</p>
+        <br/>
+        <p value="15">He leans on his house, but it does not stand;<br/>he clings to it, but it crumbles.</p>
+        <br/>
+        <p value="16">He is sturdy under the sun,<br/>spreading its shoots in the garden,</p>
+        <br/>
+        <p value="17">its roots entwined around the rocks,<br/>holding fast to each stone.</p>
+        <br/>
+        <p value="18">But when uprooted, the place rejects it:<br/>“I have never known you.”</p>
+        <br/>
+        <p value="19">And there it lies rotting by the road,<br/>while other plants grow in its place.</p>
+        <br/>
+        <p value="20">Indeed God does not reject the blameless,<br/>nor lend his hand to the evildoer.</p>
+        <br/>
+        <p value="21">He will again fill your mouth with laughter<br/>and your lips with joyful shouts.</p>
+        <br/>
+        <p value="22">Your enemies will be confused,<br/>and the tent of the wicked will disappear.</p>
+    </chapter>
+    <chapter title="Chapter 9" value="9">
+        <h4>I cannot argue with you, nevertheless…</h4>
+        <br/>
+        <p value="1"><text tips="Jb 9,1 Job is upset before an inaccessible God. The Creator's greatness does not console the one who suffers without being heard. The misfortune of a single just one distorts creation. Again, Job not only questions evil, but the very situation created by human existence with its freedom. The God who made us free persons must also be a Person, and as long as he does not speak to us, his silence may be interpreted as a refusal to dialogue and a proof of indifference toward us. If I were innocent, my own mouth would condemn me (v. 20). Job reminds us of those notorious trials where militants, unjustly accused by their own party, come to admit their guilt spontaneously. Similarly, many times a single mishap would be enough to make us feel sinful. Can a mortal be just before God (v. 2)? The same question is found in 4:17 and 22:2. This guilt feeling and the opposite feeling of hostility towards God are two sides of the same truth: the human condition is unacceptable as long as God makes people who cannot find him. You granted me life in your grace. Job cannot deny that God is concerned about his creatures, and he remembers the wonders God achieves in the pregnant mother. These attentions only open the way for his demands: gifts coming to us from people above arouse our suspicions more than our gratitude: I know what was in your mind (10:13). After years without thinking, people begin to reflect and it is then that the absence of the Creator may prepare them for rebellion.">1</text>Then Job answered:</p>
+        <br/>
+        <p value="2">Very well I know that it is so.<br/>But how can a mortal be just before God?</p>
+        <br/>
+        <p value="3">If one were to contend with him,<br/>not once in a thousand times would he answer.</p>
+        <br/>
+        <p value="4">His power is vast, his wisdom profound.<br/>Who has resisted him and come out unharmed?</p>
+        <br/>
+        <p value="5">He moves mountains before they are aware;<br/>he overturns them in his rage.</p>
+        <br/>
+        <p value="6">He makes the earth tremble<br/>and its pillars quake.</p>
+        <br/>
+        <p value="7">He commands the sun, and it does not shine;<br/>he seals off the light of the stars.</p>
+        <br/>
+        <p value="8">He alone stretches out the skies<br/>and treads on the waves of the seas.</p>
+        <br/>
+        <p value="9">He made the Bear and Orion,<br/>the Pleiades and every constellation.</p>
+        <br/>
+        <p value="10">His wonders are past all reckoning,<br/>his miracles beyond all counting.</p>
+        <br/>
+        <p value="11">He passes by, but I do not see him;<br/>he moves on, but I do not notice him.</p>
+        <br/>
+        <p value="12">If he snatches away, who can stop him?<br/>Who can say to him, “What are you doing?”</p>
+        <br/>
+        <p value="13">God does not turn back when angered;<br/>before him Rahab’s cohorts cowered.</p>
+        <br/>
+        <p value="14">How then can I answer him<br/>and find words to argue with him?</p>
+        <br/>
+        <p value="15">If he does not answer when I am right,<br/>shall I plead with my judge for mercy?</p>
+        <br/>
+        <p value="16">Even if I appealed and he answered,<br/>I do not believe that he would have heard.</p>
+        <br/>
+        <p value="17">He who crushes me for a trifle<br/>and multiplies my hurt for no reason.</p>
+        <br/>
+        <p value="18">He does not give me time to breathe,<br/>but fills me with grief without pause.</p>
+        <br/>
+        <p value="19">If it is a contest of strength, he is mighty.<br/>If a matter of justice, who will summon him?</p>
+        <br/>
+        <p value="20">If I were innocent, my own mouth would condemn me;<br/>if blameless, it would pronounce me guilty.</p>
+        <br/>
+        <p value="21">But am I innocent, after all? I do not know,<br/>and so I find my life despicable.</p>
+        <br/>
+        <p value="22">It is all the same! And this I dare say:<br/>both blameless and wicked – he destroys.</p>
+        <br/>
+        <p value="23">When disaster brings sudden death,<br/>he mocks the despair of the innocent.</p>
+        <br/>
+        <p value="24">When a nation falls into a tyrant’s hand,<br/>it is he who makes the judges blind.<br/>But if it is not he – who else then?</p>
+        <br/>
+        <p value="25">Swifter than a runner are my days;<br/>without a shred of joy they fly away.</p>
+        <br/>
+        <p value="26">They skim along like reed canoes<br/>or like eagles swooping on their prey.</p>
+        <br/>
+        <p value="27">If I resolve to forget my affliction,<br/>to smile and change my expression,</p>
+        <br/>
+        <p value="28">my trials make me fear<br/>for I know I shall be held accountable.</p>
+        <br/>
+        <p value="29">In any case if I am to be condemned,<br/>why should I bother in vain?</p>
+        <br/>
+        <p value="30">If I washed my body with snow<br/>and cleansed my hands with soap,</p>
+        <br/>
+        <p value="31">you would plunge me into the dung pit,<br/>and my very clothes would abhor me.</p>
+        <br/>
+        <p value="32">He is not a man like me that I might say,<br/>“let us go to court together.”</p>
+        <br/>
+        <p value="33">Would that there were an arbiter between us,<br/>who could lay his hand upon both of us.</p>
+        <br/>
+        <p value="34">He would remove from me the rod of God<br/>and his terrors which frighten me.</p>
+        <br/>
+        <p value="35">But it is not so. Then I will speak<br/>to myself alone without fear.</p>
+    </chapter>
+    <chapter title="Chapter 10" value="10">
+        <h4>You hunt me like a lion</h4>
+        <br/>
+        <p value="1">Since I loathe my life,<br/>I shall pour forth my complaint;<br/>I shall speak of my soul’s torment.</p>
+        <br/>
+        <p value="2">I shall say to God: Do not condemn me,<br/>but tell me what is your quarrel with me?</p>
+        <br/>
+        <p value="3">Would it be good for you to oppress me,<br/>to spurn the work of your hands<br/>and favor the designs of the wicked?</p>
+        <br/>
+        <p value="4">Have you human eyes?<br/>Do you see as man sees?</p>
+        <br/>
+        <p value="5">Are your days as the days of man,<br/>or your years as a mortal’s lifetime?</p>
+        <br/>
+        <p value="6">Why do you seek guilt in me<br/>and search for my faults?</p>
+        <br/>
+        <p value="7">You know I have not sinned,<br/>but who can rescue me from your hand?</p>
+        <br/>
+        <p value="8">You have formed and made me.<br/>Will you then turn and destroy me?</p>
+        <br/>
+        <p value="9">Remember that you molded me from clay.<br/>Will you turn me to dust again?</p>
+        <br/>
+        <p value="10">Did you not pour me out like milk<br/>and curdle me like cheese?</p>
+        <br/>
+        <p value="11">You wrapped me up in skin and flesh,<br/>knit me together with bones and sinews.</p>
+        <br/>
+        <p value="12">In your goodness you gave me life<br/>and watched over my breathing with care.</p>
+        <br/>
+        <p value="13">Yet this is what you hid in your heart,<br/>I know what was in your mind:</p>
+        <br/>
+        <p value="14">You wanted to see if I sinned,<br/>and not let my fault be forgiven.</p>
+        <br/>
+        <p value="15">If I am guilty – alas for me!<br/>If innocent – I dare not lift my head,<br/>humbled and shamed in my affliction.</p>
+        <br/>
+        <p value="16">Exhausted, you hunt me like a lion,<br/>you want to prove that you are stronger.</p>
+        <br/>
+        <p value="17">You renew your attack on me;<br/>you intensify your rage,<br/>wave upon wave, your forces assail me.</p>
+        <br/>
+        <p value="18">Why did you bring me out of the womb?<br/>I wish I had died unseen,</p>
+        <br/>
+        <p value="19">a being that had not been –<br/>carried from the womb direct to the tomb.</p>
+        <br/>
+        <p value="20">Are not my days almost over?<br/>Turn away; leave me a while to recover</p>
+        <br/>
+        <p value="21">before I go to the place of no return,<br/>to the land of gloom and shadow,</p>
+        <br/>
+        <p value="22">to the land of chaos and deepest night,<br/>where darkness is the only light.</p>
+    </chapter>
+    <chapter title="Chapter 11" value="11">
+        <h4>The discourse of Zophar</h4>
+        <br/>
+        <p value="1">Zophar the Naamithite spoke:</p>
+        <br/>
+        <p value="2">Must these words go unanswered?<br/>Must you be right for talking so much?</p>
+        <br/>
+        <p value="3">Will your prattle keep us silent?<br/>Will no one answer your mocking?</p>
+        <br/>
+        <p value="4">You say to God that your way is right,<br/>that you are clean in his sight.</p>
+        <br/>
+        <p value="5">How I wish that God would speak<br/>and open his lips against you,</p>
+        <br/>
+        <p value="6">to show you the secrets of wisdom<br/>which put intelligence to shame,<br/>then you would know<br/>that God is recalling your sins.</p>
+        <br/>
+        <p value="7">Can you fathom the mysteries of God,<br/>probe the extent of his perfection?</p>
+        <br/>
+        <p value="8">It is higher than heaven –<br/>what can you do?<br/>Deeper than the world of death –<br/>what can you know?</p>
+        <br/>
+        <p value="9">Its measure is wider than the earth,<br/>broader than the sea.</p>
+        <br/>
+        <p value="10">Who can stop him when he passes,<br/>when he imprisons and calls to judgment?</p>
+        <br/>
+        <p value="11">He sees evil; he recognizes deceit.<br/>Will he not then take note of it?</p>
+        <br/>
+        <p value="12">So stupid people learn to be wise<br/>as wild donkeys become tame.</p>
+        <br/>
+        <p value="13">If you set your heart aright<br/>and stretch out your hands to him,</p>
+        <br/>
+        <p value="14">if you wash your hand of sin<br/>and allow no evil in your tent,</p>
+        <br/>
+        <p value="15">you will then raise your face in honor;<br/>having no fear, you will feel secure.</p>
+        <br/>
+        <p value="16">You will forget your suffering<br/>and recall it only as waters gone by.</p>
+        <br/>
+        <p value="17">Your life will be brighter than noonday<br/>and its darkness like the morning.</p>
+        <br/>
+        <p value="18">You will be comforted, for there is hope;<br/>you will be protected when you sleep.</p>
+        <br/>
+        <p value="19">You will lie down with no one to fear;<br/>many will come to court your favor.</p>
+        <br/>
+        <p value="20">But the eyes of the wicked will fail;<br/>they will lose all way of escape,<br/>their one hope – that death will come.</p>
+    </chapter>
+    <chapter title="Chapter 12" value="12">
+        <h4>Will you defend God with lies?</h4>
+        <br/>
+        <p value="1"><text tips="Jb 12,1 Zophar kept on repeating the arguments of the wise men: if you are suffering, you are guilty; mend your ways and you will be healed. Then Job continues to accuse God. He lists some of the injustices which we see daily. Then, in 12:14-25, he emphasizes that God's power manifests itself especially in his destructive action. God upsets the fortune of the powerful, distorts the wisdom of the sages, prevents people from being successful, and does not allow their ventures to last. In the midst of a perfect universe, human history has no meaning.">1</text>Then Job answered:</p>
+        <br/>
+        <p value="2">No doubt you are the people’s voice;<br/>when you die, wisdom dies with you!</p>
+        <br/>
+        <p value="3">But I have a mind as well as you,<br/>I know all that you have said.</p>
+        <br/>
+        <p value="4">To my friends I am a laughingstock<br/>when I call on God who does not answer;<br/>the just and blameless man<br/>is made fun of.</p>
+        <br/>
+        <p value="5">“Contempt for the unfortunate,” so think the prosperous,<br/>“a blow for those who are staggering.”</p>
+        <br/>
+        <p value="6">Yet the robbers’ tents are undisturbed,<br/>those who provoke God are in peace,<br/>those who make a god of their strength.</p>
+        <br/>
+        <p value="7">But ask the beasts to teach you,<br/>the birds of the air to tell you,</p>
+        <br/>
+        <p value="8">the plants of the earth to instruct you,<br/>the fish of the sea to inform you.</p>
+        <br/>
+        <p value="9">Who among them does not understand<br/>that behind all this is God’s hand?</p>
+        <br/>
+        <p value="10">He holds the life of every creature<br/>and the breath of humans.</p>
+        <br/>
+        <p value="11">The ear surely can test the words<br/>as the tongue tastes food;</p>
+        <br/>
+        <p value="12">wisdom is found in the old,<br/>and understanding in great age;</p>
+        <br/>
+        <p value="13">in God however is wisdom and power;<br/>his are counsel and understanding.</p>
+        <br/>
+        <p value="14">What he tears down, none can rebuild;<br/>the one he imprisons, none can release.</p>
+        <br/>
+        <p value="15">If he withholds water, there is drought;<br/>if he lets it loose, there is flood.</p>
+        <br/>
+        <p value="16">In him are strength and perception;<br/>deceived and deceiver are in his power.</p>
+        <br/>
+        <p value="17">He leads counselors away stripped<br/>and makes fools of judges.</p>
+        <br/>
+        <p value="18">He loosens the belt of kings<br/>and ties a loincloth about their waist.</p>
+        <br/>
+        <p value="19">He leads priests away, barefoot,<br/>and overthrows those in power.</p>
+        <br/>
+        <p value="20">He compels advisers to keep silent,<br/>and strips elders of their discernment.</p>
+        <br/>
+        <p value="21">He puts princes to shame;<br/>he unties the girdle of the strong.</p>
+        <br/>
+        <p value="22">(He uncovers the gloomy recesses<br/>and brings the deep darkness to light.)</p>
+        <br/>
+        <p value="23">He makes a nation rise and fall,<br/>a people to grow and to dwindle.</p>
+        <br/>
+        <p value="24">He deprives leaders of their judgment,<br/>leaving them to roam in a trackless waste.</p>
+        <br/>
+        <p value="25">Without light, they grope in the dark<br/>and stagger like drunkards.</p>
+    </chapter>
+    <chapter title="Chapter 13" value="13">
+        <p value="1"><text tips="Jb 13,1 Faced with a meaningless life, human wisdom does not have an adequate answer. So Job accuses these wise men who pretend to justify God while forgetting reality (13:1-6). Will you defend God with false inventions (v. 7)? It is better to keep quiet and admit our own ignorance. This boldness might even save me (v. 16). Job is so convinced that God is just that he wants to force him to break his silence. Perhaps God will make him die because of his boldness but, at least, Job will have had an answer and he will know why he dies (13:13-20). Job's bold attitude corrects the widespread image of a believer as one who accepts with resignation without trying to understand. Job does not fall down before God like a slave, but rather, being conscious of his dignity in the eyes of his Maker, he asks for an explanation. Jb 13,13 In 14:13-17 Job mentions the place of the dead, or Sheol, or netherworld, where the Jews thought that, after death, they would have some semblance of life, but would be more like prisoners far from Yahweh than like human beings who are alive and praise God (see Is 38:18-19). When someone has been called and loved by God he can no longer accept that he will disappear forever. And if God were to let him survive in a place not close to God, he would always long to reach God: I would wait for my release, You would call and I would answer you. In chapters 15-18 everyone proceeds without listening to the other: Job expresses his despair and his friends repeat their conviction that misfortunes are for the wicked.">1</text>My eyes have seen all this,<br/>my ears have heard and understood.</p>
+        <br/>
+        <p value="2">What you know, I also know;<br/>I am not inferior to you.</p>
+        <br/>
+        <p value="3">But I would like to speak to the Almighty,<br/>I want to plead my case with God.</p>
+        <br/>
+        <p value="4">You are glossing over the problem<br/>and offering false remedies.</p>
+        <br/>
+        <p value="5">If only you would keep silent,<br/>that would at least be wisdom.</p>
+        <br/>
+        <p value="6">Hear now my argument;<br/>listen to my defense.</p>
+        <br/>
+        <p value="7">Will you speak falsely for God?<br/>Will you defend him with false inventions?</p>
+        <br/>
+        <p value="8">Will you side with him<br/>and advocate on his behalf?</p>
+        <br/>
+        <p value="9">What if he examines you?<br/>Could he be deceived as people are?</p>
+        <br/>
+        <p value="10">He will rebuke you for sure<br/>if in secret you show partiality.</p>
+        <br/>
+        <p value="11">You will be terrified by his majesty,<br/>and you will be in dread of him.</p>
+        <br/>
+        <p value="12">Heaps of ashes are your maxims;<br/>mounds of clay are your defenses.</p>
+        <br/>
+        <p value="13"><text tips="Jb 13,1 Faced with a meaningless life, human wisdom does not have an adequate answer. So Job accuses these wise men who pretend to justify God while forgetting reality (13:1-6). Will you defend God with false inventions (v. 7)? It is better to keep quiet and admit our own ignorance. This boldness might even save me (v. 16). Job is so convinced that God is just that he wants to force him to break his silence. Perhaps God will make him die because of his boldness but, at least, Job will have had an answer and he will know why he dies (13:13-20). Job's bold attitude corrects the widespread image of a believer as one who accepts with resignation without trying to understand. Job does not fall down before God like a slave, but rather, being conscious of his dignity in the eyes of his Maker, he asks for an explanation. Jb 13,13 In 14:13-17 Job mentions the place of the dead, or Sheol, or netherworld, where the Jews thought that, after death, they would have some semblance of life, but would be more like prisoners far from Yahweh than like human beings who are alive and praise God (see Is 38:18-19). When someone has been called and loved by God he can no longer accept that he will disappear forever. And if God were to let him survive in a place not close to God, he would always long to reach God: I would wait for my release, You would call and I would answer you. In chapters 15-18 everyone proceeds without listening to the other: Job expresses his despair and his friends repeat their conviction that misfortunes are for the wicked.">2</text>So keep silent and let me speak;<br/>this will be at my own risk.</p>
+        <br/>
+        <p value="14">I am putting myself in jeopardy<br/>and gambling for my life.</p>
+        <br/>
+        <p value="15">Though he may slay me,<br/>I will still argue with him;</p>
+        <br/>
+        <p value="16">and this boldness might even save me<br/>for godless do not dare draw near him.</p>
+        <br/>
+        <p value="17">Carefully listen to my words,<br/>give my case a hearing.</p>
+        <br/>
+        <p value="18">I will proceed in due form<br/>believing that I am guiltless.</p>
+        <br/>
+        <p value="19">If anyone makes good his charges,<br/>I am ready to be silenced and die.</p>
+        <br/>
+        <p value="20">Only grant me these two things, O God,<br/>and from you I will not hide:</p>
+        <br/>
+        <p value="21">Withdraw your hand far from me,<br/>and do not frighten me with your terrors.</p>
+        <br/>
+        <p value="22">Summon me and I will respond;<br/>or let me speak and then have your reply.</p>
+        <br/>
+        <p value="23">What are my faults, what are my sins?<br/>Make them all known to me.</p>
+        <br/>
+        <p value="24">Why hide your face from me<br/>and consider me your enemy?</p>
+        <br/>
+        <p value="25">Why torment a wind-blown leaf<br/>or pursue a withered straw?</p>
+        <br/>
+        <p value="26">But you search for accusations<br/>and you recall the sins of my youth.</p>
+        <br/>
+        <p value="27">You shackle my feet,<br/>keep watch on all my paths<br/>and mark out my footsteps.</p>
+    </chapter>
+    <chapter title="Chapter 14" value="14">
+        <h4>Man born of woman has a short life</h4>
+        <br/>
+        <p value="1"><text tips="Jb 14,1 Through his personal case, Job presents a general criticism of the human condition, and he does it in a way very similar to Ecclesiastes. He emphasizes the following about human fate: - life is short; - sufferings are countless; - the grace of youth is followed by the bitterness of adult life; - there is a degree of impurity in humans, namely, something mysterious which ruins everything they undertake; - when looking at life, they would like to live forever, which is not granted to them. While Ecclesiastes accepts the universal law, Job dreams of a God who might talk with him and forget, for a time, his superiority (vv. 15-17). Here we see one of the results of the teaching that God gave his people for centuries. As the Israelites understood better the alliance that linked them with God, they became more human. Whereas their ancestors like Jacob or Moses were resigned to their mortal destiny, they aspired for something better.">1</text>Man born of woman<br/>has a short life full of sorrow.</p>
+        <br/>
+        <p value="2">Like a flower he blossoms and withers;<br/>transient and fleeting as a shadow.<br/>(13:28) He falls apart like worm-eaten wood,<br/>like cloth devoured by the moths.</p>
+        <br/>
+        <p value="3">Is he the one you look on<br/>and bring before you for judgment?</p>
+        <br/>
+        <p value="4">Who can bring the clean from the unclean?<br/>No one!</p>
+        <br/>
+        <p value="5">Since his days are measured<br/>and you have decreed the number of his months,<br/>set him bounds he cannot pass,</p>
+        <br/>
+        <p value="6">then leave him alone. Turn away from him<br/>till he completes his day like a hireling.</p>
+        <br/>
+        <p value="7">There is hope for a tree:<br/>if cut down it will sprout again,<br/>its new shoots will still appear.</p>
+        <br/>
+        <p value="8">Though its roots grow old in the ground<br/>and its stump withers in the soil,</p>
+        <br/>
+        <p value="9">at the scent of water it will bud<br/>and put forth shoots like a young plant.</p>
+        <br/>
+        <p value="10">But when man is cut down, he comes undone;<br/>he breathes his last – where will he be?</p>
+        <br/>
+        <p value="11">The waters of the sea may disappear,<br/>rivers drain away,</p>
+        <br/>
+        <p value="12">but the one who lies down will not rise again;<br/>the heavens will vanish before he wakes,<br/>before he rises from his sleep.</p>
+        <br/>
+        <p value="13">If only you would hide me in the grave<br/>and shelter me till your wrath is past!<br/>If only you would set a time for me<br/>and then remember me!</p>
+        <br/>
+        <p value="14">If you die, will you live again?<br/>All the days of my service<br/>I would wait for my release.</p>
+        <br/>
+        <p value="15">You would call and I would answer;<br/>you would long for the work of your hands again.</p>
+        <br/>
+        <p value="16">Now you watch my every step,<br/>but then you would stop counting my sins.</p>
+        <br/>
+        <p value="17">My offenses would be sealed in a bag,<br/>and you would do away with my guilt.</p>
+        <br/>
+        <p value="18">But as mountains erode and crumble,<br/>as rock is moved from its place,</p>
+        <br/>
+        <p value="19">as waters wear away stones<br/>and floods wash away the soil,<br/>so you destroy the hope of man.</p>
+        <br/>
+        <p value="20">You crush him once for all, and he is gone;<br/>you change his appearance and send him away.</p>
+        <br/>
+        <p value="21">If his children are honored, he does not know it;<br/>if brought low, he does not see it.</p>
+        <br/>
+        <p value="22">Only the pain of his own body does he feel;<br/>only for himself does he mourn.</p>
+    </chapter>
+    <chapter title="Chapter 15" value="15">
+        <h4>Another discourse of Eliphaz</h4>
+        <br/>
+        <p value="1">Eliphaz the Temanite spoke:</p>
+        <br/>
+        <p value="2">Should a wise man answer with airy notions,<br/>puff himself up with senseless opinions?</p>
+        <br/>
+        <p value="3">Should he argue in empty talk,<br/>in words that are meaningless?</p>
+        <br/>
+        <p value="4">You are undermining piety<br/>and meditation in God’s presence.</p>
+        <br/>
+        <p value="5">Your iniquity instructs your mouth,<br/>and you talk like the crafty.</p>
+        <br/>
+        <p value="6">Your own mouth condemns you,<br/>your own lips, not mine.</p>
+        <br/>
+        <p value="7">Are you mankind’s firstborn?<br/>Were you brought forth before the hills?</p>
+        <br/>
+        <p value="8">Are you privy to God’s counsels?<br/>Do you alone possess wisdom?</p>
+        <br/>
+        <p value="9">What knowledge have you that we do not have?<br/>What do you understand that is obscure to us?</p>
+        <br/>
+        <p value="10">The gray-haired and the aged are among us,<br/>men older than your father.</p>
+        <br/>
+        <p value="11">Are God’s consolations too small for you,<br/>and the words spoken gently to you?</p>
+        <br/>
+        <p value="12">Why does your heart carry you away,<br/>why do your eyes flash</p>
+        <br/>
+        <p value="13">when you turn your wrath against God<br/>and utter such words as these?</p>
+        <br/>
+        <p value="14">What is man to claim innocence,<br/>the child of woman to be cleared of guilt?</p>
+        <br/>
+        <p value="15">If God puts no trust in his holy ones,<br/>and (the) heavens are not clean in his eyes,</p>
+        <br/>
+        <p value="16">how much less man who is vile and corrupt,<br/>who drinks evil as if it were water!</p>
+        <br/>
+        <p value="17">Listen and I will explain;<br/>I will tell you of my experience</p>
+        <br/>
+        <p value="18">and of the sages’ teachings<br/>passed on to them by their fathers,</p>
+        <br/>
+        <p value="19">to whom alone the land was given<br/>when no foreigner moved among them.</p>
+        <br/>
+        <p value="20">The wicked are in torment all their days.<br/>During the years allotted to the tyrant</p>
+        <br/>
+        <p value="21">his ears are filled with terrifying sounds,<br/>his peace shattered by the attack of marauders.</p>
+        <br/>
+        <p value="22">He despairs of escaping the darkness<br/>and sees himself given to the sword,</p>
+        <br/>
+        <p value="23">then left as a prey for vultures,<br/>he knows his destruction is at hand.</p>
+        <br/>
+        <p value="24">The hour of darkness fills him with dread,<br/>as distress and anguish close in on him.</p>
+        <br/>
+        <p value="25">But look: he challenged God,<br/>he raised his hand against the Almighty,</p>
+        <br/>
+        <p value="26">charging stubbornly against him<br/>behind a thick, sturdy shield.</p>
+        <br/>
+        <p value="27">His face had grown full and fat,<br/>his thighs bulged with flesh.</p>
+        <br/>
+        <p value="28">He would dwell in ruined cities,<br/>in deserted and crumbling houses.</p>
+        <br/>
+        <p value="29">He will not prosper or take root;<br/>he will not escape from darkness;</p>
+        <br/>
+        <p value="30">a flame will wither his shoots;<br/>the wind will carry off his blossom.</p>
+        <br/>
+        <p value="31">Let him not trust in greatness<br/>for he will get nothing in return.</p>
+        <br/>
+        <p value="32">He will be paid in full before his time,<br/>and his branches will never again be green.</p>
+        <br/>
+        <p value="33">Like a vine he will be stripped of unripe grapes;<br/>like the olive, he will shed his blossoms.</p>
+        <br/>
+        <p value="34">For the breed of the godless will be barren,<br/>and fire will consume the tents of extortioners.</p>
+        <br/>
+        <p value="35">Who conceives mischief will bring forth evil,<br/>deceit will spring from his own womb.</p>
+    </chapter>
+    <chapter title="Chapter 16" value="16">
+        <h4>Where then can my hope be?</h4>
+        <br/>
+        <p value="1"><text tips="Jb 16,1 Notice the passage 16:8-17:7 which recalls Isaiah 53 and also the psalms evoking images of the Passion of Christ. When human beings are suffering, they share in the Passion of Christ, whether they know it or not; the confrontation of sin with the justice of God continues in them. God seems merciless in pursuing his creatures, in completely humiliating them, but, in fact, he is removing the roots of our pride. 17:8-10 must be seen as Job's ironic answer to his friends, You say that in seeing the wicked's misfortune, the just praise God's justice, well then, in seeing me so humiliated, rejoice and say: well done!">1</text>Then Job answered:</p>
+        <br/>
+        <p value="2">I have heard many such things.<br/>What miserable comforters you are!</p>
+        <br/>
+        <p value="3">When will your airy words end?<br/>What ails you and keeps you arguing?</p>
+        <br/>
+        <p value="4">I too could talk as you do,<br/>if you were in my place;<br/>I could declaim over you<br/>and shake my head at you.</p>
+        <br/>
+        <p value="5">I would give you strength,<br/>and comfort you with words.</p>
+        <br/>
+        <p value="6">Yet if I talk, my suffering is not eased,<br/>if I refrain, it does not go far from me.</p>
+        <br/>
+        <p value="7">I am upset with such ill will;<br/>an evil band</p>
+        <p value="8">takes hold of me.<br/>They stand to testify against me;<br/>and answer me with slanders.</p>
+        <br/>
+        <p value="9">They assail me with fury<br/>and gnash their teeth at me;<br/>my enemies lord it over me.</p>
+        <br/>
+        <p value="10">With open mouths they jeer at me;<br/>they strike my cheek, and together<br/>they mass themselves against me.</p>
+        <br/>
+        <p value="11">God has given me over to sinners<br/>and cast me into the clutches of the wicked.</p>
+        <br/>
+        <p value="12">All was well until he shattered me,<br/>but he seized me and dashed me to pieces.<br/>Having set me up for a target,</p>
+        <br/>
+        <p value="13">he had his arrows pointed at me,<br/>striking from every direction,<br/>piercing my sides without pity,<br/>spilling my gall on the ground.</p>
+        <br/>
+        <p value="14">Like a warrior he bears down on me,<br/>thrusting me unceasingly.</p>
+        <br/>
+        <p value="15">I have fastened sackcloth over my skin<br/>and buried my brow in dust.</p>
+        <br/>
+        <p value="16">My face is red with weeping,<br/>deep shadows ring my eyes;</p>
+        <br/>
+        <p value="17">yet my hands are free of violence,<br/>and my prayer sincere.</p>
+        <br/>
+        <p value="18">O earth, do not cover my blood;<br/>let not my cry come to rest!</p>
+        <br/>
+        <p value="19">Even now my witness is in heaven<br/>and my defender is on high.</p>
+        <br/>
+        <p value="20">Now my prayer has gone up to God<br/>as I poured out my tears before him.</p>
+        <br/>
+        <p value="21">Would that one could discuss with God<br/>as he does with his fellows.</p>
+        <br/>
+        <p value="22">My years are numbered, and soon<br/>I will take the road of no return.</p>
+    </chapter>
+    <chapter title="Chapter 17" value="17">
+        <p value="1">My spirit is broken,<br/>my days are over<br/>and the grave awaits me.</p>
+        <br/>
+        <p value="2">Mockers surround me;<br/>my eyes grow dim with nights of bitterness.</p>
+        <br/>
+        <p value="3">Sponsor me, O God,<br/>since no one will support me.</p>
+        <br/>
+        <p value="4">You have closed their minds<br/>so they will not dare.</p>
+        <br/>
+        <p value="5">Who will help a friend when his children are in need?</p>
+        <br/>
+        <p value="6">I have been made everybody’s byword,<br/>a man in whose face people spit.</p>
+        <br/>
+        <p value="7">My eyes have grown dim with grief,<br/>my frame shrunken to a shadow.</p>
+        <br/>
+        <p value="8">At this, the godly are appalled,<br/>and the guiltless rail against the wicked.</p>
+        <br/>
+        <p value="9">The righteous feel at ease<br/>and those with clean hands are strengthened.</p>
+        <br/>
+        <p value="10">But come on again, all of you;<br/>I will not find a single sage among you.</p>
+        <br/>
+        <p value="11">My days are ended, my plans shattered,<br/>and so my heart desires</p>
+        <br/>
+        <p value="12">the night when it is day,<br/>the coming of light as soon as it darkens.</p>
+        <br/>
+        <p value="13">Where is my hope? The grave is my home,<br/>in the darkness I spread out my bed,</p>
+        <br/>
+        <p value="14">I must call corruption “my father,”<br/>and the worm “my mother” or “my sister.”</p>
+        <br/>
+        <p value="15">What can I wait for,<br/>and who will see any hope for me?</p>
+        <br/>
+        <p value="16">Will it go down to the bars of death,<br/>shall we descend together into the dust?</p>
+    </chapter>
+    <chapter title="Chapter 18" value="18">
+        <p value="1">Bildad the Shuhite replied:</p>
+        <br/>
+        <p value="2">When will your empty words end?<br/>Listen, and then we can talk.</p>
+        <br/>
+        <p value="3">Why do you regard us like beasts?<br/>Are we stupid in your sight?</p>
+        <br/>
+        <p value="4">You who tear yourself in your wrath,<br/>must the earth be lost on your account<br/>the rocks be moved out of their place?</p>
+        <br/>
+        <p value="5">Surely the evil man’s lamp is snuffed out;<br/>his fire stops burning.</p>
+        <br/>
+        <p value="6">The light dims in his tent;<br/>the lamp shining on him goes out.</p>
+        <br/>
+        <p value="7">His vigorous steps weaken;<br/>his own schemes make him stumble.</p>
+        <br/>
+        <p value="8">His feet take him to a net<br/>or lead him into a pitfall.</p>
+        <br/>
+        <p value="9">A trap seizes him by the heel;<br/>a snare lays hold of him.</p>
+        <br/>
+        <p value="10">Hidden in the ground is a noose for him;<br/>pitfalls await him along the way.</p>
+        <br/>
+        <p value="11">Terrors assail him on every side;<br/>they harry him at every step.</p>
+        <br/>
+        <p value="12">Hungering among his goods,<br/>doom awaits him if he falls.</p>
+        <br/>
+        <p value="13">Sickness eats his skin;<br/>death’s firstborn devours his limbs.</p>
+        <br/>
+        <p value="14">Torn from the security of his tent,<br/>he is marched off to the king of terrors,</p>
+        <br/>
+        <p value="15">His tent is no longer his:<br/>take it! Brimstone is scattered over his field.</p>
+        <br/>
+        <p value="16">Dried up below are his roots;<br/>withered above are his branches.</p>
+        <br/>
+        <p value="17">His memory perishes in the land,<br/>his name is forgotten on the earth.</p>
+        <br/>
+        <p value="18">From light he is driven into darkness;<br/>he is banished from the world.</p>
+        <br/>
+        <p value="19">He has no descendants among his people,<br/>no survivor where once he lived.</p>
+        <br/>
+        <p value="20">All in the west are appalled at his fate;<br/>those of the east are seized with fright.</p>
+        <br/>
+        <p value="21">Such is the lot of the wicked;<br/>such is the place of one who knows not God.</p>
+    </chapter>
+    <chapter title="Chapter 19" value="19">
+        <p value="1">Job answered:</p>
+        <br/>
+        <p value="2">How long will you vex me,<br/>crush me with your words?</p>
+        <br/>
+        <p value="3">Ten times now you have reviled me,<br/>you have attacked me shamelessly.</p>
+        <br/>
+        <p value="4">If indeed I am at fault,<br/>I alone am concerned with it.</p>
+        <br/>
+        <p value="5">If you want to gloat over me<br/>and use my humiliation as argument,</p>
+        <br/>
+        <p value="6">know then that God has treated me unfairly<br/>and surrounded me with torment.</p>
+        <br/>
+        <p value="7">Though I cry injustice I am not heard;<br/>though I call for help it is in vain.</p>
+        <br/>
+        <p value="8">He has blocked my way to prevent me from passing;<br/>he has shrouded my path and made it dark.</p>
+        <br/>
+        <p value="9">He has stripped me of honor,<br/>and removed the crown from my head.</p>
+        <br/>
+        <p value="10">On every side he tears me down<br/>and uproots my hope till it is gone.</p>
+        <br/>
+        <p value="11">He directs his anger against me<br/>and counts me as his enemy.</p>
+        <br/>
+        <p value="12">Against me his troops build a siege ramp,<br/>and around my tent they encamp.</p>
+        <br/>
+        <h4>In my flesh I shall see God</h4>
+        <br/>
+        <p value="13"><text tips="Jb 19,13 This poem in 19:13-22 deals with the destiny of the elderly and the sick who feel useless, the condition of a fallen man or woman, rejected by society and an object of repulsion for the relatives who can do nothing to help. Here, halfway through the book, Job again strongly expresses his faith: I know that my Redeemer lives... and in my flesh I shall see God (vv. 25-26). The very justice of God demands that he speak after all the speakers. God often waits for his servants to die to justify them, but in the end he will come as Redeemer or Liberator: all will see and hear (Wisdom 5). Such was the hope of the oppressed just of whom the Bible speaks, and of Jesus himself. In fact, Job himself is not an oppressed person waiting to be liberated. What is more important for him is not to prevail in reasoning with his adversaries, but to see God and hear him (v.27).">1</text>He has distanced me from my brothers,<br/>completely estranged me from my friends.</p>
+        <br/>
+        <p value="14">My kinsfolk and companions have gone away;<br/>my guests have forsaken me,</p>
+        <br/>
+        <p value="15">my maidservants count me as an alien<br/>as if they had never known me</p>
+        <br/>
+        <p value="16">I summon my servant, but he does not answer,<br/>even when I plead with him.</p>
+        <br/>
+        <p value="17">To my wife my breath is offensive;<br/>to my own brothers I am loathsome.</p>
+        <br/>
+        <p value="18">Even little children ridicule me:<br/>Come! let us make fun of him!</p>
+        <br/>
+        <p value="19">All my intimate friends detest me;<br/>those I love have turned against me.</p>
+        <br/>
+        <p value="20">I have become skin and bone<br/>and have escaped with only my gums.</p>
+        <br/>
+        <p value="21">Have pity my friends, have pity,<br/>for God’s hand has struck me!</p>
+        <br/>
+        <p value="22">Why do you hound me as God does?<br/>Will you never have enough of my flesh?</p>
+        <br/>
+        <p value="23">Oh, that my words were written,<br/>or recorded on bronze</p>
+        <br/>
+        <p value="24">with an iron tool, a chisel<br/>or engraved forever on rock!</p>
+        <br/>
+        <p value="25">For I know that my Redeemer lives,<br/>and he, the last, will take his stand on earth.</p>
+        <br/>
+        <p value="26">I will be there behind my skin,<br/>and in my flesh I shall see God.</p>
+        <br/>
+        <p value="27">With my own eyes I shall see him –<br/>I and not another. How my heart yearns!</p>
+        <br/>
+        <p value="28">If you say, “We will pursue him!<br/>let us find a charge against him”,</p>
+        <br/>
+        <p value="29">be afraid of the sword yourselves;<br/>when Wrath is enflamed against wrong,<br/>you will know there is judgment.</p>
+    </chapter>
+    <chapter title="Chapter 20" value="20">
+        <h4>Zophar: Evil will come to an end</h4>
+        <br/>
+        <p value="1">Zophar of Naamath spoke next:</p>
+        <br/>
+        <p value="2">My troubled thoughts move me to reply<br/>for I have been feeling impatient.</p>
+        <br/>
+        <p value="3">I hear a rebuke which puts me to shame,<br/>and I am inspired to give an answer.</p>
+        <br/>
+        <p value="4">You know how it has been from of old,<br/>since man was placed on earth,</p>
+        <br/>
+        <p value="5">that the triumph of the wicked is short<br/>and the joy of the godless is but a moment.</p>
+        <br/>
+        <p value="6">Though his pride reach to the heavens<br/>and his head touch the clouds,</p>
+        <br/>
+        <p value="7">he vanishes like a phantom;<br/>those who have seen him ask where he is.</p>
+        <br/>
+        <p value="8">Like a dream he takes flight,<br/>like a vision of the night.</p>
+        <br/>
+        <p value="9">The eye that met him sees him no more;<br/>neither shall his dwelling shelter him again.</p>
+        <br/>
+        <p value="10">His youthful frame that was full of vigor<br/>shall at last lie with him in the dust.</p>
+        <br/>
+        <p value="11">Evil was sweet in his mouth,<br/>and he hid it under his tongue,</p>
+        <br/>
+        <p value="12">He liked it and did not let it go<br/>and still kept it within his mouth,</p>
+        <br/>
+        <p value="13">yet his food turns sour<br/>and becomes venom in his stomach.</p>
+        <br/>
+        <p value="14">He vomits the riches he swallowed;<br/>God compels his belly to belch it out.</p>
+        <br/>
+        <p value="15">Because he sucked the poison of a viper,<br/>he will be killed by the fangs of an adder.</p>
+        <br/>
+        <p value="16">He will no longer see the streams of oil,<br/>no rivers of honey and milk.</p>
+        <br/>
+        <p value="17">He gives back the fruit of his toil: he could not swallow it.</p>
+        <br/>
+        <p value="18">For he has oppressed the poor<br/>and seized houses instead of building them.</p>
+        <br/>
+        <p value="19">His children must make amends to his victims;<br/>his own hands must pay back his riches.</p>
+        <br/>
+        <p value="20">For his greed had no limit,<br/>and no one could escape his appetite;</p>
+        <br/>
+        <p value="21">he devoured them, one and all.<br/>This is why his prosperity will not endure.</p>
+        <br/>
+        <p value="22">In the midst of plenty, distress seizes him,<br/>the full force of misery falls upon him.</p>
+        <br/>
+        <p value="23">When his belly is filled God unloads his wrath upon him<br/>and pelts him with his arrows.</p>
+        <br/>
+        <p value="24">While he flees from an iron weapon,<br/>the bronze bow strikes him down.</p>
+        <br/>
+        <p value="25">A dart sticks in his back,<br/>in his liver an arrow.<br/>He is in the grip of a terrible fear;</p>
+        <br/>
+        <p value="26">total darkness has been stored for him,<br/>a fire which he did not kindle devours him and consumes whatever was left in his tent.</p>
+        <br/>
+        <p value="27">The heavens will expose his guilt;<br/>the earth will rise up against him.</p>
+        <br/>
+        <p value="28">A flood will sweep away his house,<br/>the waters of God’s wrath.</p>
+        <br/>
+        <p value="29">Such is the fate of the wicked –<br/>their lot which comes from God.</p>
+    </chapter>
+    <chapter title="Chapter 21" value="21">
+        <p value="1">Job replied:</p>
+        <br/>
+        <p value="2">Listen at least to my words,<br/>enough of your consolation.</p>
+        <br/>
+        <p value="3">Bear with me while I speak;<br/>and then you can mock.</p>
+        <br/>
+        <p value="4">Is my grudge against humans?<br/>Why then should I not be impatient?</p>
+        <br/>
+        <p value="5">Look at me and be appalled;<br/>cover your mouth for a moment.</p>
+        <br/>
+        <p value="6">When I think about this I am troubled<br/>and trembling seizes my body.</p>
+        <br/>
+        <h4>Job: It’s well for the wicked!</h4>
+        <br/>
+        <p value="7"><text tips="Jb 21,7 Here, too, we recognize Jeremiah's complaint in 12:1 and the questions raised in Psalm 73. In the Old Testament the just are scandalized by the prosperity of the wicked, because it seems to deny God's justice. Is it true, as we sometimes hear, that death is the ultimate justice?">1</text>Why do the wicked live,<br/>increase in age and in power?</p>
+        <br/>
+        <p value="8">Their descendants flourish in their sight,<br/>their kinsfolk and their offspring.</p>
+        <br/>
+        <p value="9">Their homes are safe, free from fear;<br/>they do not feel the scourge of God.</p>
+        <br/>
+        <p value="10">Their bulls breed without fail;<br/>their cows calve and do not miscarry.</p>
+        <br/>
+        <p value="11">They have children as they have lambs<br/>their little ones dance like deer.</p>
+        <br/>
+        <p value="12">They sing to the rhythm of timbrel and harp;<br/>make merry to the sound of the flute.</p>
+        <br/>
+        <p value="13">They live out their days in happiness<br/>and go down to Sheol in peace.</p>
+        <br/>
+        <p value="14">Yet they said to God, “Go away!<br/>We have no desire to learn your way.</p>
+        <br/>
+        <p value="15">Who is the Almighty that we should serve him?<br/>What will it profit us if we pray to him?”</p>
+        <br/>
+        <p value="16">Though they planned everything far from God<br/>prosperity is in their hands.</p>
+        <br/>
+        <p value="17">How often is their lamp put out?<br/>How often does calamity befall them?<br/>How often does God’s anger wipe them out?</p>
+        <br/>
+        <p value="18">How often are they like straw before the wind,<br/>like chaff which the storm sweeps away?</p>
+        <br/>
+        <p value="19">You say, “His children will pay for his sin.”<br/>Let the man himself pay for his iniquity;</p>
+        <br/>
+        <p value="20">let his own eyes see his misfortune;<br/>let him drink the wrath of the Almighty!</p>
+        <br/>
+        <p value="21">What does he care about his family when he dies,<br/>when his months have been cut off?</p>
+        <br/>
+        <p value="22">Can anyone teach God knowledge,<br/>since he judges even the highest?</p>
+        <br/>
+        <p value="23">One man dies in full vigor,<br/>at ease and completely secure;</p>
+        <br/>
+        <p value="24">full and nourished is his figure,<br/>rich in marrow are his bones.</p>
+        <br/>
+        <p value="25">Another dies in bitterness,<br/>never having enjoyed happiness.</p>
+        <br/>
+        <p value="26">But in the dust they lie down<br/>side by side, covered with worms.</p>
+        <br/>
+        <p value="27">I know your thoughts fully<br/>and your schemes about me.</p>
+        <br/>
+        <p value="28">For you say, “Where is the house of the great prince?<br/>Where is the tent of the wicked?”</p>
+        <br/>
+        <p value="29">Have you never asked the travelers,<br/>or have you misunderstood what they say –</p>
+        <br/>
+        <p value="30">that the evil man is spared from calamity,<br/>delivered from the day of God’s fury?</p>
+        <br/>
+        <p value="31">Who will denounce his conduct to his face<br/>or pay him back for what he has done?</p>
+        <br/>
+        <p value="32">When people have carried him to the grave his image watches from his tomb.</p>
+        <br/>
+        <p value="33">The soft earth is sweet to him;<br/>behind him you see everyone follow<br/>and before him a countless horde.</p>
+        <br/>
+        <p value="34">How then can you console me with your nonsense?<br/>Pure falsehood is all you have said.</p>
+    </chapter>
+    <chapter title="Chapter 22" value="22">
+        <h4>Eliphaz: Can we be of any use to God?</h4>
+        <br/>
+        <p value="1">Eliphaz the Temanite replied:</p>
+        <br/>
+        <p value="2">Can we be of any use to God?<br/>Only himself a wise man benefits.</p>
+        <br/>
+        <p value="3"><text tips="Jb 22,3 Eliphaz' speeches are repetitious: if Job suffers, it is because he has sinned. He must have oppressed his neighbor in spite of his reputation for integrity. Yet, note the list of sins that Job might have committed: it is always a matter of oppressing the weak or failing to assist them. Jesus will say nothing new when, in Matthew 25:40 he condemns to eternal punishment those who failed to provide bread and water to those in need. The commentary on vv. 29-30 can be found with Isaiah 2:6-22.">1</text>What would the Almighty gain if you were upright?<br/>What profit if you were blameless in your ways?</p>
+        <br/>
+        <p value="4">Is it for your piety that he reproves<br/>and brings you to judgment?</p>
+        <br/>
+        <p value="5">Is it not for your great wickedness,<br/>for there is no end to your sins?</p>
+        <br/>
+        <p value="6">Without any need you kept your kinsmen’s goods<br/>and stripped them naked of their clothing.</p>
+        <br/>
+        <p value="7">You denied drink to the thirsty<br/>and withheld bread from the hungry.</p>
+        <br/>
+        <p value="8">The powerful control the land<br/>and allot it to their cronies.</p>
+        <br/>
+        <p value="9">You have sent widows away empty-handed<br/>and crushed the arms of orphans.</p>
+        <br/>
+        <p value="10">No wonder snares are round about you<br/>and sudden terror makes you dismayed,</p>
+        <br/>
+        <p value="11">you are blinded by darkness<br/>and covered by flood.</p>
+        <br/>
+        <p value="12">Is not God above the heavens?<br/>See how lofty are the highest stars.</p>
+        <br/>
+        <p value="13">Yet you say, “What does God know?<br/>Can he see through deep shadows?</p>
+        <br/>
+        <p value="14">He cannot see for thick clouds veil him<br/>as he walks upon the vault of the heavens.”</p>
+        <br/>
+        <p value="15">Will you keep to the old path<br/>that the wicked have trod?</p>
+        <br/>
+        <p value="16">In a moment they were carried off<br/>and their foundation washed away.</p>
+        <br/>
+        <p value="17">They said to God, “Away from us!<br/>What can the Almighty do to us?”</p>
+        <br/>
+        <p value="18">He had filled their houses with good things,<br/>but the thoughts of the wicked were far from him.</p>
+        <br/>
+        <p value="19">The righteous see their ruin and are glad,<br/>the innocent laugh at them and say,</p>
+        <br/>
+        <p value="20">“Now the great have come to nothing,<br/>fire has devoured their heritage.”</p>
+        <br/>
+        <p value="21">Come to terms with God and make peace;<br/>in this way you will prosper.</p>
+        <br/>
+        <p value="22">Listen to his teaching<br/>and keep his words in your heart.</p>
+        <br/>
+        <p value="23">If you return humbled to the Almighty,<br/>if you drive injustice from your tent,</p>
+        <br/>
+        <p value="24">then you will look on gold as dust,<br/>gold of Ophir as pebbles from a stream.</p>
+        <br/>
+        <p value="25">For the Almighty will be your gold<br/>and your sparkling silver.</p>
+        <br/>
+        <p value="26">For then you will delight in the Almighty<br/>and lift up your face to God.</p>
+        <br/>
+        <p value="27">You will pray to him and he will hear,<br/>and you will fulfill your vows.</p>
+        <br/>
+        <p value="28">You will succeed in your decision,<br/>and light will shine upon your way.</p>
+        <br/>
+        <p value="29">For God brings down the proud<br/>and saves the downcast.</p>
+        <br/>
+        <p value="30">He who rescues the innocent,<br/>will rescue you too if your hands are clean.</p>
+    </chapter>
+    <chapter title="Chapter 23" value="23">
+        <p value="1"><text tips="Jb 23,1 Job comes back to what he had already said: there is something tormenting religious people: to know that God is always looking at us and yet never be able to find him. This was commented for chapter 7: Job personifies those who do not know Christ and have not felt how good the Lord is towards those who serve him with love. The same rebellion is found in many atheists today: they reject the idea of a God who watches them only to punish their faults.">1</text>Job answered and said:</p>
+        <br/>
+        <p value="2">Again today my complaint is rebellious;<br/>I groan under his heavy hand.</p>
+        <br/>
+        <p value="3">If only I knew where to find him,<br/>if only I could go to his dwelling,</p>
+        <br/>
+        <p value="4">I would bring my case before him<br/>and lay out in full my arguments.</p>
+        <br/>
+        <p value="5">I would find out his answer<br/>and understand what he would say.</p>
+        <br/>
+        <p value="6">Would he need great power to debate with me?<br/>No! he needs only to listen!</p>
+        <br/>
+        <p value="7">He would know the complainant to be an upright man<br/>and I would be free of my judge.</p>
+        <br/>
+        <p value="8">But if I go eastward, he is not there;<br/>if I go westward, I still cannot see him.</p>
+        <br/>
+        <p value="9">Seeking him in the north, I do not find him;<br/>looking for him in the south, he is not there.</p>
+        <br/>
+        <p value="10">But he knows my every step,<br/>and I will come out as gold in his test.</p>
+        <br/>
+        <p value="11">I have always walked along his path;<br/>I have kept his ways and not turned aside.</p>
+        <br/>
+        <p value="12">I have not departed from his commands,<br/>instead I have treasured his words.</p>
+        <br/>
+        <p value="13">But who can oppose once he has decided?<br/>He does what he desires.</p>
+        <br/>
+        <p value="14">He will carry out his decree<br/>and other plans laid out for me.</p>
+        <br/>
+        <p value="15">That is why I am terrified<br/>when I think of all this.</p>
+        <br/>
+        <p value="16">God has made me lose courage;<br/>the Almighty has made me afraid,</p>
+        <br/>
+        <p value="17">but I am not silenced by darkness,<br/>by the thick gloom that covers my face.</p>
+    </chapter>
+    <chapter title="Chapter 24" value="24">
+        <h4>Why does God not ask?</h4>
+        <br/>
+        <p value="1"><text tips="Jb 24,1 A terrible accusation against God who keeps silent when the oppressed are before him. Few prophets expressed the horror of human evil more forcefully. The poor go into hiding. It is a fact that the media has made us more aware of universal misery and, doubtless, we see there a result of the Gospel. It is a fact that this trend has affected also the non-Christian religions, which have opened up in recent years. Every country hides its poor and the rich are separated so that they rarely meet the poor, and consequently ignore them. That would be nothing if God did not also appear to forget the poor (and accept that his Church so easily forgets to bring them the Gospel). Jb 24,14 This paragraph seems to be out of place here. The God of light allows the presence of dark areas on earth, where the children of darkness are at work. Paragraph 24:18-23 would be better located after 27:23.">1</text>Why is what happens hidden from God?<br/>Why do his faithful never see his justice?</p>
+        <br/>
+        <p value="2">The wicked remove landmarks<br/>and steal both flocks and shepherds.</p>
+        <br/>
+        <p value="3">They seize the orphan’s ass<br/>and for a pledge take the widow’s ox.</p>
+        <br/>
+        <p value="4">The needy stay far from the road,<br/>the poor go into hiding.</p>
+        <br/>
+        <p value="5">Like wild asses in the wasteland,<br/>they look for food;<br/>the poor toil in the night,<br/>there is no food for their children!</p>
+        <br/>
+        <p value="6">They gather fodder in the fields,<br/>work in the vineyards of the wicked.</p>
+        <br/>
+        <p value="7">Destitute, they lie down naked,<br/>shivering in the freezing cold.</p>
+        <br/>
+        <p value="8">Drenched with mountain rains,<br/>they hug the rocks for lack of shelter.</p>
+        <br/>
+        <p value="9">The fatherless child is snatched from the breast,<br/>the infant of the poor seized for a debt.</p>
+        <br/>
+        <p value="10">Without clothes, they go naked,<br/>starving as they carry the sheaves.</p>
+        <br/>
+        <p value="11">Between the millstones they crush olives;<br/>they tread the winepress but suffer thirst.</p>
+        <br/>
+        <p value="12">In the city the dying groan,<br/>and the wounded cry out for help<br/>but God pays no attention.</p>
+        <br/>
+        <p value="13">Many rebel against the light,<br/>they do not know its way or stay in its path.</p>
+        <br/>
+        <p value="14"><text tips="Jb 24,1 A terrible accusation against God who keeps silent when the oppressed are before him. Few prophets expressed the horror of human evil more forcefully. The poor go into hiding. It is a fact that the media has made us more aware of universal misery and, doubtless, we see there a result of the Gospel. It is a fact that this trend has affected also the non-Christian religions, which have opened up in recent years. Every country hides its poor and the rich are separated so that they rarely meet the poor, and consequently ignore them. That would be nothing if God did not also appear to forget the poor (and accept that his Church so easily forgets to bring them the Gospel). Jb 24,14 This paragraph seems to be out of place here. The God of light allows the presence of dark areas on earth, where the children of darkness are at work. Paragraph 24:18-23 would be better located after 27:23.">2</text>When dawn breaks, the murderer rises<br/>to kill the poor and the helpless.</p>
+        <br/>
+        <p value="15">The adulterer waits for dusk,<br/>thinking that no eye watches him.<br/>At night the thief walks about<br/>and puts a mask over his face,</p>
+        <br/>
+        <p value="16">ready to break into the houses<br/>that he chose during the day.</p>
+        <br/>
+        <p value="17">Morning is their darkest hour<br/>the time for them to fear.</p>
+        <br/>
+        <p value="18">The wicked are foam on the face of the waters;<br/>their portion of the land is cursed,<br/>and no one goes to their vineyards.</p>
+        <br/>
+        <p value="19">As drought and heat snap up the thawed snow,<br/>so Sheol swallows up the sinner,</p>
+        <br/>
+        <p value="20">and the womb which formed him, forgets him.<br/>Evil men are no longer remembered,<br/>like a fallen tree they are broken.</p>
+        <br/>
+        <p value="21">They preyed on the barren, childless woman,<br/>and showed no kindness to the widow.</p>
+        <br/>
+        <p value="22">But the Powerful stands against them and drags away the mighty.</p>
+        <br/>
+        <p value="23">He may let them feel secure,<br/>but his eyes are upon their ways.</p>
+        <br/>
+        <p value="24">They are momentarily exalted, and then gone;<br/>they wither and fade like a weed.<br/>They are cut off like heads of grain.</p>
+        <br/>
+        <p value="25">If this is not so, who can prove me wrong<br/>and reduce my words to nothing?</p>
+    </chapter>
+    <chapter title="Chapter 25" value="25">
+        <p value="1"><text tips="Jb 25,1 Bildad offers a new presentation of the splendor of the world. The people of that time still had very primitive ideas about the origin of the world. They accepted the legends of neighboring people, the Canaanites and the Chaldeans, that presented the universe as organized by the gods after they had destroyed the monsters of chaos. For centuries, the Jews kept these images; they were satisfied to remove from the legends the references to pagan gods and spoke of a first victory of Yahweh at the beginning of the world. See also Isaiah 51:9. The first chapter of Genesis was written after these poems. There the notion of God-Creator is purified: God created everything from the beginning and he did so by his word alone.">1</text>Then Bildad the Shuhite answered:</p>
+        <br/>
+        <p value="2">His is dominion and awesome power,<br/>he who establishes peace in the heavens.</p>
+        <br/>
+        <p value="3">Can his armies be numbered?<br/>Upon whom does his light not rise?</p>
+        <br/>
+        <p value="4">How can man be righteous before God?<br/>How can one born of woman be pure?</p>
+        <br/>
+        <p value="5">Even the moon is not bright<br/>nor are the stars pure in his sight –</p>
+        <br/>
+        <p value="6">how much less man – this insect,<br/>the human – a worm?</p>
+    </chapter>
+    <chapter title="Chapter 26" value="26">
+        <p value="1" number="5"><text tips="Jb 26,5 Paragraph 26:1-4 comes at the end of chapter 26.">1</text>The shades of the deep are terrified,<br/>the waters and their inhabitants tremble.</p><br/>
+        <p value="2" number="6">Sheol is naked before God;<br/>destruction lies uncovered.</p><br/>
+        <p value="3" number="7">Over the void he spreads out the northern skies;<br/>over emptiness he suspends the earth.</p><br/>
+        <p value="4" number="8">He wraps up the waters in his clouds,<br/>yet the clouds do not burst their seams.</p><br/>
+        <p value="5" number="9">He covers the face of the moon<br/>and spreads his clouds over it.</p><br/>
+        <p value="6" number="10">On the face of the waters he draws the horizon as a boundary between light and darkness.</p><br/>
+        <p value="7" number="11">The pillars of the heavens quake,<br/>stunned at his thunderous rebuke.</p><br/>
+        <p value="8" number="12">By his power he stilled the sea;<br/>by his wisdom he smote Rahab.</p><br/>
+        <p value="9" number="13">By his wind the skies were cleared;<br/>his hand pierced the fleeing serpent.</p><br/>
+        <p value="10" number="14">These are but hints of his power;<br/>a whisper is all that we hear of him.<br/>But who can understand the thunder of his might?</p><br/>
+        <p value="11" number="1">Job answered then:</p><br/>
+        <p value="12" number="2">What help have you given to the powerless,<br/>what strength to the enfeebled arm?</p><br/>
+        <p value="13" number="3">What advice have you offered to the foolish,<br/>and what great insight have you shown?</p><br/>
+        <p value="14" number="4">Who has inspired in you these words?<br/>Whose spirit spoke from your mouth?</p><br/>
+    </chapter>
+    <chapter title="Chapter 27" value="27">
+        <p value="1">Job continued his discourse:</p>
+        <br/>
+        <p value="2">As surely as God lives, who denies my right,<br/>the Almighty, who has made me bitter,</p>
+        <br/>
+        <p value="3">as long as I have life within me<br/>and God’s breath in my nostrils,</p>
+        <br/>
+        <p value="4">my lips will not speak falsehood<br/>nor my tongue utter deceit.</p>
+        <br/>
+        <p value="5">Never will I admit you are right,<br/>nor deny my integrity till I die.</p>
+        <br/>
+        <p value="6">Never will I let go of my righteousness;<br/>my conscience is not put to shame.</p>
+        <br/>
+        <p value="7">Let my enemy be as the wicked<br/>and my adversary as the unrighteous.</p>
+        <br/>
+        <p value="8">For what hope has the godless<br/>when God cuts him off,<br/>when God takes away his life?</p>
+        <br/>
+        <p value="9">God will not listen to his call<br/>when he is beset by trouble.</p>
+        <br/>
+        <p value="10">For he did not delight in the Almighty<br/>or call upon him constantly.</p>
+        <br/>
+        <p value="11">See, I tell you the deeds of God<br/>and do not conceal the ways of the Almighty.</p>
+        <br/>
+        <p value="12">You have witnessed this yourselves.<br/>Why then these empty words?<br/>Third discourse of Nahama</p>
+        <br/>
+        <p value="13">This is a wicked man’s portion from God,<br/>the heritage of an oppressor<br/>which he receives from the Almighty.</p>
+        <br/>
+        <p value="14">Though his children be many,<br/>the sword is their destiny.<br/>His offspring will go hungry.</p>
+        <br/>
+        <p value="15">The plague will bury those who survive,<br/>and their widows will not mourn for them.</p>
+        <br/>
+        <p value="16">He may heap up silver like dust<br/>and pile up clothes like clay,</p>
+        <br/>
+        <p value="17">but what he stores, the just will wear,<br/>and the innocent divide his silver.</p>
+        <br/>
+        <p value="18">He builds his house like a cobweb,<br/>or like the hut a watchman makes.</p>
+        <br/>
+        <p value="19">Once more he lies down rich<br/>and wakes to see his wealth all gone.</p>
+        <br/>
+        <p value="20">Terrors rush upon him by day;<br/>at night a whirlwind carries him away.</p>
+        <br/>
+        <p value="21">The east wind lifts him up, and he disappears<br/>as it sweeps him out of his place.</p>
+        <br/>
+        <p value="22">People strike at him without mercy<br/>as he flees headlong from their hands.</p>
+        <br/>
+        <p value="23">They clap their hands in mockery<br/>and hiss at him from where they are.</p>
+    </chapter>
+    <chapter title="Chapter 28" value="28">
+        <h4>The miners praise the wisdom of God</h4>
+        <br/>
+        <p value="1"><text tips="Jb 28,1 This poem marks an interval and a break after Job's discussion with his friends. Miners know how to look for hidden treasures inside hills: gold, silver and precious stones. But who will look for God's wisdom? We find something similar in Baruch 3:15-30.">1</text>There is a silver mine<br/>and a place where gold is refined.</p>
+        <br/>
+        <p value="2">Iron is taken from earth<br/>and copper is smelted from ore.</p>
+        <br/>
+        <p value="3">Trying to conquer darkness,<br/>piercing to the uttermost depths<br/>in darkness for the gloomy stone,</p>
+        <br/>
+        <p value="4">strange people cut a shaft<br/>in places remote and long forgotten,<br/>and there they labor, dangling and swaying.</p>
+        <br/>
+        <p value="5">The earth which produces food<br/>is plowed up as if by fire.</p>
+        <br/>
+        <p value="6">Sapphires come from its rocks,<br/>gold nuggets from its dust.</p>
+        <br/>
+        <p value="7">No bird of prey knows the hidden path,<br/>no falcon’s eye has seen it yet.</p>
+        <br/>
+        <p value="8">No proud beast has trodden it,<br/>no prowling lion has passed over it.</p>
+        <br/>
+        <p value="9">Man attacks the flinty rocks,<br/>upturns mountains by their roots.</p>
+        <br/>
+        <p value="10">Tunneling through earth’s layers,<br/>he sees all its treasures.</p>
+        <br/>
+        <p value="11">He searches the source of rivers,<br/>and brings hidden things to light.</p>
+        <br/>
+        <p value="12">But where does wisdom come from?<br/>Where does understanding dwell?</p>
+        <br/>
+        <p value="13">Man has known no way to wisdom;<br/>it is not found in the land of the living.</p>
+        <br/>
+        <p value="14">The deep says, “It is not in me”;<br/>the sea says, “It is not with me.”</p>
+        <br/>
+        <p value="15">It cannot be purchased with the finest gold,<br/>nor can its price be weighed in silver.</p>
+        <br/>
+        <p value="16">It cannot be bought with the gold of Ophir,<br/>nor with precious onyx or sapphire.</p>
+        <br/>
+        <p value="17">It is beyond comparison with gold or crystal;<br/>its worth is unmatched by any golden vessel.</p>
+        <br/>
+        <p value="18">Not worth mentioning are coral and jasper;<br/>the price of wisdom is above the biggest pearl.</p>
+        <br/>
+        <p value="19">The topaz of Cush cannot equal it;<br/>it cannot be valued in pure gold.</p>
+        <br/>
+        <p value="20">Where then does wisdom come from?<br/>Where does understanding dwell?</p>
+        <br/>
+        <p value="21">It is hidden from the eyes of all the living,<br/>concealed from the birds in the sky.</p>
+        <br/>
+        <p value="22">Destruction and Death can only say,<br/>“We have heard of it.”</p>
+        <br/>
+        <p value="23">God alone knows the way to wisdom,<br/>his eye enters its dwelling place.</p>
+        <br/>
+        <p value="24">When he looked to the ends of the earth,<br/>and watched everything under the heavens,</p>
+        <br/>
+        <p value="25">when he gave the wind its force<br/>and measured out the waters,</p>
+        <br/>
+        <p value="26">when he set a bound for the rain<br/>and a way for the thunder and lightning,</p>
+        <br/>
+        <p value="27">then he looked at wisdom and appraised it;<br/>he established it, knowing it in depth.</p>
+        <br/>
+        <p value="28">And to humans he said:<br/>The fear of the Lord is wisdom;<br/>avoiding evil is understanding.</p>
+    </chapter>
+    <chapter title="Chapter 29" value="29">
+        <h4>Whoever listened to me, spoke well of me</h4>
+<br/>
+<p value="1"><text tips="Jb 29,1 In chapters 29-31 Job presents his defense and he assumes the role of the just one who is envied and slandered. As long as people are lucky they are esteemed, but if they run into misfortune, everyone suddenly looks at them differently. A secret instinct urges people to find a scapegoat in the midst of misfortune in the community. Inordinate respect returns and envy gives way to persecution. Paradoxically, it is Job's defense that shows the flaws in his integrity. I was wearing my honesty like a garment (v. 14). Job was delighted to do good. He was a just man, aware of being just and he gave thanks to God who made him good. All this was nothing more than the justice and the merits of the Pharisee. Very respectful of a distant God, Job built up his life, his virtues and his good self-image alone. In the end, his perfection did not exist in God's eyes because, without saying so, he made himself God's rival.">1</text>Job continued his discourse:</p><br/>
+        <p value="2">Oh, that I were in months gone by,<br/>in the days when God watched over me,</p><br/>
+        <p value="3">when his light shone upon my head<br/>and I walked with it through darkness.</p><br/>
+        <p value="4">Oh, that I were in my prime,<br/>when God’s friendship blessed my home,</p><br/>
+        <p value="5">when the Almighty was still with me<br/>and my children were around me,</p><br/>
+        <p value="6">when milk bathed my footsteps<br/>and olive oil flowed from the rock.</p><br/>
+        <p value="7">When I went to the city gate<br/>and took up my seat in the square</p><br/>
+        <p value="8">the young men stepped aside<br/>and the old men rose to their feet;</p><br/>
+        <p value="9">the chief men dared not speak<br/>but laid their hands on their mouths;</p><br/>
+        <p value="10">the princes were silenced,<br/>their tongues stuck to the palate.</p><br/>
+        <p value="11" number="21">They listened to me and waited in silence<br/>for my counsel.</p><br/>
+        <p value="12" number="22">Once I spoke they said no more,<br/>but drop by drop my words kept falling on them.</p><br/>
+        <p value="13" number="23">They waited for me as people wait for showers;<br/>they drank in my words as spring rain.</p><br/>
+        <p value="14" number="24">If I smiled at them, they did not dare believe it;<br/>not a glance of mine was lost.</p><br/>
+        <p value="15" number="25">I pointed out the way, as a leader<br/>and took a king’s place among the troops.<br/>Wherever I led them, they went.</p><br/>
+        <p value="16" number="11">Whoever heard me, spoke well of me,<br/>and those who saw me commended me,</p><br/>
+        <p value="17" number="12">for I rescued the poor who cried for help,<br/>the fatherless and the unassisted.</p><br/>
+        <p value="18" number="13">I was blessed by the dying man;<br/>I turned to peace the widow’s pining.</p><br/>
+        <p value="19" number="14">I was wearing my honesty like a garment,<br/>my integrity was my robe and turban.</p><br/>
+        <p value="20" number="15">I was eyes to the blind and feet to the lame,</p><br/>
+        <p value="21" number="16">father to the needy, the stranger’s advocate.</p><br/>
+        <p value="22" number="17">I broke the jaws of the wicked,<br/>and from his teeth forced out the prey.</p><br/>
+        <p value="23" number="18">I said to myself: “I will die old,<br/>my days as many as the grains of sand.</p><br/>
+        <p value="24" number="19">My roots will reach to the water;<br/>at night my branches will be wet with dew.</p><br/>
+        <p value="25" number="20">My glory will remain fresh,<br/>the bow ever strong in my grip.”</p>
+    </chapter>
+    <chapter title="Chapter 30" value="30">
+        <p value="1">And now I am the laughing-stock<br/>of people much younger<br/>whose fathers I considered unfit<br/>to put with the dogs of my flock.</p>
+        <br/>
+        <p value="2">Not even their arms were helpful to me for all their vigor had gone,</p>
+        <br/>
+        <p value="3">worn out by hunger and want.<br/>They roamed the parched wasteland,</p>
+        <br/>
+        <p value="4">they gathered salt herbs from the brush wood,<br/>their food was the roots of the broom plant.</p>
+        <br/>
+        <p value="5">They were banished by their fellowmen<br/>who shouted at them as if they were thieves.</p>
+        <br/>
+        <p value="6">They were forced to seek a home in caves,<br/>among the ravines and rock crevices.</p>
+        <br/>
+        <p value="7">They brayed among the bushes<br/>and huddled in the underbrush.</p>
+        <br/>
+        <p value="8">They were driven from the land<br/>for being base and senseless.</p>
+        <br/>
+        <p value="9">And now their sons sing of my disgrace;<br/>I have become a byword among them.</p>
+        <br/>
+        <p value="10">They do not hesitate to spit before me;<br/>they abhor me and keep their distance.</p>
+        <br/>
+        <p value="11">Seeing that God has unstrung my bow,<br/>they have cast off restraint in my presence.</p>
+        <br/>
+        <p value="12">On my right the rabble rise,<br/>build siege ramps and lay snares.</p>
+        <br/>
+        <p value="13">They attack, with none to restrain them.</p>
+        <br/>
+        <p value="14">They advance, as through a wide breach;<br/>they come in waves amid the uproar.</p>
+        <br/>
+        <p value="15">Terror grips me;<br/>my dignity is blown by the wind<br/>my safety has vanished like a passing cloud.</p>
+        <br/>
+        <p value="16"><text tips="Jb 30,16 The Book of Job teaches us how much we need the coming of the Son of God. On one hand, as long as God does not present himself openly, we cannot avoid doubting and resenting him. On the other hand, as long as someone feels he alone is responsible for his own perfection, he cannot feel as a child of God does nor come into the reign of grace.">1</text>And now my soul is poured out<br/>because of my days of grief and suffering.</p>
+        <br/>
+        <p value="17">At night gnawing pain pierces my bones.<br/>My veins have no rest.</p>
+        <br/>
+        <p value="18">With power God has caught my garment,<br/>binding me about as the collar of my coat;</p>
+        <br/>
+        <p value="19">throwing me into the mire,<br/>where I am now like dust.</p>
+        <br/>
+        <p value="20">I cry to you, O God, but there’s no answer;<br/>I stand but you merely look on.</p>
+        <br/>
+        <p value="21">You have become cruel to me, you pursue me<br/>mercilessly with your strong hand.</p>
+        <br/>
+        <p value="22">You lift me up and make me ride<br/>till the storm tosses and throws me down like rain.</p>
+        <br/>
+        <p value="23">I know you will bring me down to death,<br/>the destiny of all the living.</p>
+        <br/>
+        <p value="24">I did not raise my hand against the poor<br/>when he cried for help in his disaster.</p>
+        <br/>
+        <p value="25">Have I not wept for those in trouble?<br/>Has not my soul grieved for the poor?</p>
+        <br/>
+        <p value="26">But when I looked for good, I encountered evil;<br/>when I waited for light, darkness came.</p>
+        <br/>
+        <p value="27">My heart in turmoil is never at peace,<br/>for days of distress have come upon me…</p>
+        <br/>
+        <p value="28">I go about darkened, but not by the sun;<br/>if I rise in council, it is to voice my grief.</p>
+        <br/>
+        <p value="29">I have become a brother of jackals,<br/>a companion of owls.</p>
+        <br/>
+        <p value="30">My skin blackens and peels;<br/>my bones burn with fever.</p>
+        <br/>
+        <p value="31">My harp is tuned to laments,<br/>and my flute to sounds of weeping.</p>
+    </chapter>
+    <chapter title="Chapter 31" value="31">
+        <h4>Have I eaten my food alone?</h4>
+        <br/>
+        <p value="1"><text tips="Jb 31,1 Job looks at his behavior according to the law of God as it is presented in many pages of the Old Testament: a law of goodness and honesty centered on concern for one's neighbor. In a world with a very modest standard of living, those lucky enough not to lack anything had the obligation of sharing with the less fortunate. The most serious sin was the lack of social solidarity. In Job's examination of conscience the sin of idolatry appears (vv. 26-28). This, however, plays a minor role.">1</text>I have made a covenant with my eyes<br/>not even to gaze at a virgin.</p>
+        <br/>
+        <p value="2">For what is man’s lot from God on high,<br/>his heritage from the Almighty above?</p>
+        <br/>
+        <p value="3">Is it not ruin for the wicked,<br/>disaster for the wrongdoer?</p>
+        <br/>
+        <p value="4">Does he not see my ways<br/>and number all my steps?</p>
+        <br/>
+        <p value="5">Have I walked in falsehood?<br/>Have my feet hastened towards deceit?</p>
+        <br/>
+        <p value="6">Let me be weighed in honest scales,<br/>that God may know I am guiltless.</p>
+        <br/>
+        <p value="7">If my steps have turned from the way<br/>and my heart’s desire has gone astray,<br/>if my hands have been stained,</p>
+        <br/>
+        <p value="8">then may others eat what I have sown,<br/>or may my crops be stricken down.</p>
+        <br/>
+        <p value="9">If I have been enticed by a woman,<br/>if I have lurked at my neighbor’s door,</p>
+        <br/>
+        <p value="10">then may my wife grind for another,<br/>and may other men sleep with her.</p>
+        <br/>
+        <p value="11">(For that is enough to make one ashamed,<br/>a crime that should be utterly condemned.)</p>
+        <br/>
+        <p value="12">For it is a fire that burns to destruction;<br/>it would have consumed all my possessions.</p>
+        <br/>
+        <p value="13">If I have denied justice to my servants<br/>when they had a grievance against me,</p>
+        <br/>
+        <p value="14">what would I do when confronted by God?<br/>What would I answer when called to account?</p>
+        <br/>
+        <p value="15">No less than I, they too were formed in the womb<br/>by the same God who formed us all within our mothers.</p>
+        <br/>
+        <p value="16">Have I denied anything to the poor,<br/>or allowed the widow’s eyes to languish?</p>
+        <br/>
+        <p value="17">Have I eaten my food alone,<br/>not sharing it with the fatherless?</p>
+        <br/>
+        <p value="18">No! since youth I have fostered him,<br/>and from my mother’s womb, I have guided the widow.</p>
+        <br/>
+        <p value="19">Have I seen a man cold and shivering,<br/>destitute, in need of clothing,</p>
+        <br/>
+        <p value="20">who did not bless me from his heart<br/>for giving him the warmth of my fleece?</p>
+        <br/>
+        <p value="21">If I have raised my hand against the orphan,<br/>trusting in my power and influence,</p>
+        <br/>
+        <p value="22">then let my shoulder fall from its socket,<br/>let my arm be broken at the joint.</p>
+        <br/>
+        <p value="23">For I feared God-sent calamity,<br/>and how could I stand in his presence?</p>
+        <br/>
+        <p value="24">If I have put my trust in gold<br/>or have sought my security from it,</p>
+        <br/>
+        <p value="25">if I have gloated over my wealth,<br/>my fortune and accomplishments,</p>
+        <br/>
+        <p value="26">if I have regarded the sun in its radiance<br/>or the moon in its splendor,</p>
+        <br/>
+        <p value="27">and having been enticed offered them<br/>a kiss of my hand in homage,</p>
+        <br/>
+        <p value="28">then these also would be sins to judge<br/>for I would have been unfaithful to God.</p>
+        <br/>
+        <p value="29">Have I rejoiced at my enemy’s misfortune<br/>or gloated over disaster that came his way?</p>
+        <br/>
+        <p value="30">I have not even allowed my mouth to sin<br/>by invoking a curse against him.</p>
+        <br/>
+        <p value="31">Those of my household used to say,<br/>“Who has not been fed with Job’s meat?”</p>
+        <br/>
+        <p value="32">No sojourner ever spent the night in the street,<br/>for my door was always open to wayfarers.</p>
+        <br/>
+        <p value="33" number="38">If my land has cried against me<br/>and its furrows wept</p>
+        <br/>
+        <p value="34" number="39">because I have eaten its fruits unjustly<br/>after getting rid of its owners,</p>
+        <br/>
+        <p value="35" number="40">let thorns grow instead of wheat<br/>and weeds in the place of barley.</p>
+        <br/>
+        <p value="36" number="33">Have I, out of human weakness,<br/>hidden my sins and concealed guilt in my heart,</p>
+        <br/>
+        <p value="37" number="34">keeping silent by myself,<br/>because I feared the crowd and their contempt?</p>
+        <br/>
+        <p value="38" number="35">Oh, that I had someone to hear me!<br/>Let the Almighty answer! This is my plea.<br/>Let my accuser write his indictment</p>
+        <br/>
+        <p value="39" number="36">and I will wear it on my shoulder,<br/>or bind it round my head like a turban.</p>
+        <br/>
+        <p value="40" number="37">I would give him an account of my every step,<br/>and go as boldly as a prince to meet him.<br/>his is the end of the words of Job.</p>
+    </chapter>
+    <chapter title="Chapter 32" value="32">
+        <h3>Second Part: Elihu Intervenes</h3>
+        <br/>
+        <p value="1"><text tips="Jb 32,1 The intervention of Elihu marks the beginning of a new part of the poems, inserted later and placed in chapters 32-37. Elihu's discourses add little to previous discussion. Elihu has nevertheless his point of view. It seems that for him the discussion so far has been rather theoretical. For one part he insists on the pedagogical aspect of the divine work: many situations which seem unjust to us cease to be so provided we go beyond our first impressions. He also holds that even if God does not show himself, he knows how to communicate his counsels: - You ask where your faults are, but perhaps God has warned you in a thousand ways and you have not taken it into account (33:13-18). - You despair in your illness, but perhaps God wants to teach you: you did not invoke him when all was going well (35:8-13). Elihu senses that there is something false in Job's righteousness, but he does not know what it is. He looks for secret sins that Job might have committed. The fact is that what Job lacks is evangelical justice which is the humble love of God.">1</text>The three men made no further reply to Job, because in their opinion, he was guiltless.</p>
+        <p value="2">But Elihu, son of Barachel the Buzite, of the family of Ram, became angry with Job for justifying himself before God.</p>
+        <p value="3">He was also angry with the three friends for their failure to refute Job, because they had allowed God to be condemned.</p>
+        <p value="4">Because they were older than he, Elihu had bided his time;</p>
+        <p value="5">but when the three gave up the argument, his anger burst out.</p>
+        <p value="6">Thus Elihu, son of Barachel the Buzite, spoke:<br/>I am young and you are quite old;<br/>therefore I was timid and afraid<br/>and dared not tell you of what I know.</p>
+        <br/>
+        <p value="7">“Age should speak,” I thought;<br/>“advanced years should teach wisdom.”</p>
+        <br/>
+        <p value="8">But it is the spirit in man,<br/>the breath of the Almighty,<br/>that makes him understand.</p>
+        <br/>
+        <p value="9">It is not the old alone who are wise,<br/>nor the aged who understand what is right.</p>
+        <br/>
+        <p value="10">Therefore I said: “Listen,<br/>let me also show my knowledge.</p>
+        <br/>
+        <p value="11">I waited for you to speak,<br/>listening for your reasons,<br/>as you searched for words.</p>
+        <br/>
+        <p value="12">I gave you my full attention<br/>but none of you has proved Job wrong,<br/>none has refuted his arguments.</p>
+        <br/>
+        <p value="13">Stop saying, “We have met wisdom;<br/>God has instructed us, not man.”</p>
+        <br/>
+        <p value="14">I will not resume your argument<br/>or answer Job with your reasoning.</p>
+        <br/>
+        <p value="15">They keep quiet for they are dismayed<br/>and have nothing more to say.</p>
+        <br/>
+        <p value="16">Must I wait, now that they are silent,<br/>making no effort to reply?</p>
+        <br/>
+        <p value="17">I, too, will show my knowledge.</p>
+        <br/>
+        <p value="18">For I am full of words<br/>and prodded on by the spirit.</p>
+        <br/>
+        <p value="19">I am like bottled-up wine,<br/>or a wineskin bursting with wine.</p>
+        <br/>
+        <p value="20">I have to speak to find relief,<br/>open my lips and make reply.</p>
+        <br/>
+        <p value="21">I will be partial to no one<br/>and will not flatter anyone.</p>
+        <br/>
+        <p value="22">For if I were skilled in flattery,<br/>my Maker would soon do away with me.</p>
+    </chapter>
+    <chapter title="Chapter 33" value="33">
+        <h4>Have you heard God’s warning?</h4>
+        <br/>
+        <p value="1"><text tips="Jb 33,1 Elihu says to Job: you think you are innocent, but surely you have not paid attention to God's warnings. In spite of the fact that God cannot be reached by humans, he communicates through dreams, inspirations, encounters. God also corrects by way of the advice of other people who are his messengers, called here angels, mediators. We know that angel means messenger. The very one who complains about God fails to see, to listen and to accept the messages God sends through the reprimands and advice given us by others who correct us in a loving way. Elihu shows how trials are a lesson in humility for all (36:1-21).">1</text>So now, O Job, hear my discourse,<br/>listen to everything I say.</p>
+        <br/>
+        <p value="2">My words are on the tip of my tongue,</p>
+        <br/>
+        <p value="3">words from an upright heart,<br/>words full of knowledge and sincerity.</p>
+        <br/>
+        <p value="4">The Spirit of God has made me;<br/>the breath of the Almighty keeps me alive.</p>
+        <br/>
+        <p value="5">Answer me if you can;<br/>draw up your arguments and take your stand.</p>
+        <br/>
+        <p value="6">Like yourself, I too have been taken<br/>by God from the same clay.</p>
+        <br/>
+        <p value="7">Thus no fear of me need alarm you,<br/>nor should my presence lie heavy on you.</p>
+        <br/>
+        <p value="8">But I heard what you said,<br/>none of your words escaped my hearing:</p>
+        <br/>
+        <p value="9">“I am clean and without sin;<br/>I am innocent, guiltless.</p>
+        <br/>
+        <p value="10">Yet God has found fault with me<br/>and considers me his enemy;</p>
+        <br/>
+        <p value="11">he shackles my feet,<br/>keeps watch of all my paths.”</p>
+        <br/>
+        <p value="12">I tell you, you are wrong in this,<br/>for greater than man is God.</p>
+        <br/>
+        <p value="13">Why then do you complain<br/>that he will answer none of your words?</p>
+        <br/>
+        <p value="14">See God gives a warning<br/>but does not repeat it a second time.</p>
+        <br/>
+        <p value="15">In a dream, in a night vision,<br/>when deep sleep falls on people,<br/>while they slumber in their beds,</p>
+        <br/>
+        <p value="16">it is then he opens their ears<br/>and gives warning by terrifying them.</p>
+        <br/>
+        <p value="17">So he turns man from wrongdoing<br/>and keeps him away from pride,</p>
+        <br/>
+        <p value="18">God preserves his soul from the pit,<br/>his life from perishing by the sword.</p>
+        <br/>
+        <p value="19">Man is also chastened on his bed by pain<br/>and constant distress upon his frame,</p>
+        <br/>
+        <p value="20">so that he finds food repulsive,<br/>even the choicest meal loathsome.</p>
+        <br/>
+        <p value="21">His flesh wastes away to naught;<br/>his bones, once unseen, now protrude.</p>
+        <br/>
+        <p value="22">His soul draws near to the pit,<br/>and his life to the place of death.</p>
+        <br/>
+        <p value="23">Yet if there is an angel by his side –<br/>a mediator, one in a thousand –<br/>to show him what is right for man,<br/>to give him justice once again,</p>
+        <br/>
+        <p value="24">God will have mercy on him and say,<br/>“Deliver him from going down to the pit;<br/>I have found for him a ransom.”</p>
+        <br/>
+        <p value="25">Then his flesh will be renewed as a child’s,<br/>restored as in the days of his youth.</p>
+        <br/>
+        <p value="26">He will pray and find favor with God;<br/>he will see God’s face and rejoice.</p>
+        <br/>
+        <p value="27">He will witness to men and say,<br/>“I sinned and perverted what was right,<br/>but I was not punished as I deserved.</p>
+        <br/>
+        <p value="28">He rescued my soul from going down into the pit, and gave me life to enjoy the light.”</p>
+        <br/>
+        <p value="29">God does all this to man –<br/>twice, even thrice –</p>
+        <br/>
+        <p value="30">to turn him back from the pit,<br/>to lead him with the light of life.</p>
+        <br/>
+        <p value="31">Pay attention, Job, listen to me;<br/>be silent, and I will continue to speak.</p>
+        <br/>
+        <p value="32">But if you have anything to say, say it then;<br/>speak up, for I wish to see you justified.</p>
+        <br/>
+        <p value="33">If not, then do listen;<br/>be silent as I teach you wisdom.</p>
+    </chapter>
+    <chapter title="Chapter 34" value="34">
+        <p value="1">Elihu continued speaking:</p>
+        <br/>
+        <p value="2">Hear my words, you the wise;<br/>listen to me, you who know.</p>
+        <br/>
+        <p value="3">The ear tests the word,<br/>as the palate tastes the food.</p>
+        <br/>
+        <p value="4">Let us discern what is right,<br/>learn between us what is good.</p>
+        <br/>
+        <p value="5">Job has said, “I am innocent,<br/>but God denies me justice</p>
+        <br/>
+        <p value="6">and disregards my right.<br/>Though guiltless, my wound is hopeless.”</p>
+        <br/>
+        <p value="7">Who is like Job,<br/>who drinks in blasphemies like water?</p>
+        <br/>
+        <p value="8">He keeps company with evildoers<br/>and follows the path of the wicked.</p>
+        <br/>
+        <p value="9">For has he not said, “It does not profit a man<br/>if he tries to please God?”</p>
+        <br/>
+        <p value="10">So hear me, you men of understanding,<br/>far be it from God to do evil,<br/>far from the Almighty to do wrong!</p>
+        <br/>
+        <p value="11">Rather, he repays man for what he has done;<br/>he gives him what his conduct deserves.</p>
+        <br/>
+        <p value="12">How unthinkable that God would do wrong,<br/>that the Almighty would pervert justice!</p>
+        <br/>
+        <p value="13">Who gave him charge over the earth?<br/>Who else laid out the whole world?</p>
+        <br/>
+        <p value="14">If he were to take back his spirit,<br/>to withdraw his breath to himself,</p>
+        <br/>
+        <p value="15">all flesh would perish together<br/>and man would return to dust.</p>
+        <br/>
+        <p value="16">If you have any intelligence,<br/>listen, Job, hear what I say.</p>
+        <br/>
+        <p value="17">Can an enemy of justice govern?<br/>Or do you condemn him who is mighty and just,</p>
+        <br/>
+        <p value="18">who says to kings, “You are worthless,”<br/>and to nobles, “You are wicked,”</p>
+        <br/>
+        <p value="19">who is impartial to princes<br/>and favors not the rich over the poor,<br/>for they are all his handiwork?</p>
+        <br/>
+        <p value="20">They die in a moment, even at midnight;<br/>people are shaken and pass away.<br/>Without effort he removes a tyrant.</p>
+        <br/>
+        <p value="21">His eyes are upon human’s ways,<br/>and he sees their every step.</p>
+        <br/>
+        <p value="22">For him there is no dense darkness<br/>where evildoers can hide.</p>
+        <br/>
+        <p value="23">He forewarns no man of his time<br/>to come before God in judgment.</p>
+        <br/>
+        <p value="24">He shatters the mighty without inquiry,<br/>and sets in his place another strong man.</p>
+        <br/>
+        <p value="25">Because he knows their evil deeds,<br/>he turns at night and crushes them.</p>
+        <br/>
+        <p value="26">He punishes them for their wickedness<br/>in a judgment that humans witness.</p>
+        <br/>
+        <p value="27">For they had turned away from him,<br/>heeded none of his ways,</p>
+        <br/>
+        <p value="28">and oppressed the poor so much<br/>that their cries of suffering reached him.</p>
+        <br/>
+        <p value="29">If he remains silent, who stirs him up?<br/>If he hides his face, who can see him?<br/>Yet he watches man and nation alike,</p>
+        <br/>
+        <p value="30">and restrains those who mislead the people.</p>
+        <br/>
+        <p value="31">If a wicked man says to God,<br/>“I was misguided but will offend no more.</p>
+        <br/>
+        <p value="32">Teach me what I do not see;<br/>if I have done wrong, I will do so no more.”</p>
+        <br/>
+        <p value="33">In such a case, do you think God will punish?<br/>Speak, you who reject his decisions<br/>and think you know more than I do;<br/>tell us what you know.</p>
+        <br/>
+        <p value="34">Men of understanding,<br/>wise men who hear my views will say to me:</p>
+        <br/>
+        <p value="35">“Job speaks without knowledge;<br/>his words are without insight.</p>
+        <br/>
+        <p value="36">Let Job be tried to the utmost<br/>for answering as wicked men do!</p>
+        <br/>
+        <p value="37">To his sin he adds rebellion<br/>by scornfully brushing off our arguments<br/>and multiplying his words against God.”</p>
+    </chapter>
+    <chapter title="Chapter 35" value="35">
+        <h4>It is because they did not call on God</h4>
+        <br/>
+        <p value="1">Elihu continued and said:</p>
+        <p value="2">Do you presume you are right<br/>and innocent before God,</p>
+        <br/>
+        <p value="3">when you say, “What is it to you,<br/>am I doing you harm with my sins?”</p>
+        <br/>
+        <p value="4">I will answer you and your friends as well.</p> 
+        <br/>
+        <p value="5">Look up to the sky and see,<br/>gaze at the clouds above.</p>
+        <br/>
+        <p value="6">If you sin, what is that for God?<br/>Do your many offenses hurt him?</p>
+        <br/>
+        <p value="7">If you are just, what do you give him?<br/>or what does he receive from your hand?</p>
+        <br/>
+        <p value="8">It’s a man like yourself that your sin touches,<br/>a son of man that your justice affects.</p>
+        <br/>
+        <p value="9">Men cry out when greatly oppressed;<br/>they plead for relief under the tyrant’s reign.</p>
+        <br/>
+        <p value="10">But no one says, “Where is God, my Maker,<br/>whose songs of jubilation are heard in the night,</p> 
+        <br/>
+        <p value="11">who teaches us through the beasts of the earth,<br/>who makes us wise through the birds of the air?”</p>
+        <br/>
+        <p value="12">This is why he does not answer when they cry out:<br/>because of man’s arrogance.</p>
+        <br/>
+        <p value="13">In vain! God does not listen,<br/>the Almighty takes no heed of it.</p>
+        <br/>
+        <p value="14">How much less then will he listen<br/>when you say you do not see him and wait,<br/>for your case is before him!</p>
+        <br/>
+        <p value="15">And you say that though he is angry<br/>he does not know how to punish<br/>for he has taken no notice of wickedness.</p>
+        <br/>
+        <p value="16">So Job opens his mouth in empty talk,<br/>without knowledge he multiplies words.</p>
+    </chapter>
+    <chapter title="Chapter 36" value="36">
+        <h4>God tests humans to correct them</h4>
+        <br/>
+        <p value="1">Elihu proceeded further:</p>
+        <br/>
+        <p value="2">Bear with me a little and I will explain,<br/>for I have more to say on God’s behalf.</p>
+        <br/>
+        <p value="3">I will spread my knowledge afar<br/>to do justice to my Maker.</p>
+        <br/>
+        <p value="4">Be assured that my words are not false,<br/>for you have before you an enlightened man.</p>
+        <br/>
+        <p value="5">God is mighty indeed<br/>but he does not despise the pure of heart.</p>
+        <br/>
+        <p value="6">He cuts off the power of the sinner<br/>and restores the right of the oppressed,</p>
+        <br/>
+        <p value="7">he does not forsake their claim.<br/>He sets kings on their thrones<br/>and makes them firm forever.<br/>But if they raise themselves in pride,</p>
+        <br/>
+        <p value="8">he has them bound with fetters<br/>and held fast by bonds of affliction.</p>
+        <br/>
+        <p value="9">Then he tells them what they have done,<br/>all their sins and arrogance.</p>
+        <br/>
+        <p value="10">He opens their ears to correction<br/>and exhorts them to repentance.</p>
+        <br/>
+        <p value="11">If they obey and serve him,<br/>they spend their days in prosperity<br/>and their years in contentment.</p>
+        <br/>
+        <p value="12">But if they do not listen, they go to the grave:<br/>knowledge would have saved them.</p>
+        <br/>
+        <p value="13">These hypocrites harbor resentment:<br/>they do not pray for help in their bonds,</p>
+        <br/>
+        <p value="14">therefore they die in their youth<br/>and perish among the reprobate.</p>
+        <br/>
+        <p value="15">God saves the wretched through their suffering,<br/>God instructs the unfortunate.</p>
+        <br/>
+        <p value="16">In like manner, he brings you from distress<br/>to a free and broad space,<br/>to a table filled with rich food.</p>
+        <br/>
+        <p value="17">Then you will judge the wicked;<br/>justice and judgment will be yours.</p>
+        <br/>
+        <p value="18">Take care lest you be seduced by generosity;<br/>do not yield to arrogance, bribery and corruption.</p>
+        <br/>
+        <p value="19">Your wealth and all your mighty efforts<br/>will not bail you out of distress.</p>
+        <br/>
+        <p value="20">Do not long for the coming of night<br/>to drag people away from their homes.</p>
+        <br/>
+        <p value="21">Beware of turning to iniquity;<br/>because of it you have been tried by affliction.</p>
+        <br/>
+        <h4>A hymn to God’s greatness</h4>
+        <br/>
+        <p value="22"><text tips="Jb 36,22 This second poem on the greatness of God concludes Elihu's speeches just as the poem of the miners concluded the discourses of Job's three friends.">1</text>God is exalted in his power.<br/>What teacher is there like him?</p>
+        <br/>
+        <p value="23">Who has prescribed his ways for him,<br/>or said to him that he has done wrong?</p>
+        <br/>
+        <p value="24">Remember to extol his work,<br/>of which many have sung.</p>
+        <br/>
+        <p value="25">Everyone has seen it;<br/>all gaze on it from afar.</p>
+        <br/>
+        <p value="26">God is great beyond our understanding;<br/>the number of his years is past reckoning.</p>
+        <br/>
+        <p value="27">He holds in check the waterdrops<br/>which distill from the mist as rain,</p>
+        <br/>
+        <p value="28">then the clouds pour them down<br/>and drop them upon the earth as showers.</p>
+        <br/>
+        <p value="29">This is the way he nourishes the land<br/>that provides food in abundance.</p>
+        <br/>
+        <p value="30">Who can understand how he spreads the clouds,<br/>how he thunders from his pavilion?</p>
+        <br/>
+        <p value="31">He unfurls his mists<br/>and covers the expanse of the sea.</p>
+        <br/>
+        <p value="32">With both hands he lifts up lightning<br/>and commands it to strike the target.</p>
+        <br/>
+        <p value="33">His thunder warns the shepherd<br/>and the flock senses the tempest.</p>
+    </chapter>
+    <chapter title="Chapter 37" value="37">
+        <p value="1">This is why my heart pounds<br/>and leaps from its place.</p>
+        <br/>
+        <p value="2">Listen to the thunder of his voice<br/>as it comes rumbling from his mouth.</p>
+        <br/>
+        <p value="3">Under the heavens, he hurls his lightning,<br/>sending it to the ends of the earth.</p>
+        <br/>
+        <p value="4">Then comes the sound of God’s roar–<br/>the majestic peal of his thunder.<br/>He does not check his thunderbolts<br/>until his voice has fully resounded.</p>
+        <br/>
+        <p value="5">God thunders and his voice works marvels;<br/>he does great things we cannot perceive.</p>
+        <br/>
+        <p value="6">He says to the snow, “Fall on the earth”;<br/>and to the rainshower, “Be a strong downpour.”</p>
+        <br/>
+        <p value="7">So he keeps people under cover<br/>to let them acknowledge his work.</p>
+        <br/>
+        <p value="8">Wild beasts go back into their lairs<br/>and remain quietly in their dens.</p>
+        <br/>
+        <p value="9">The storm comes out from its chamber,<br/>and the cold from the driving winds.</p>
+        <br/>
+        <p value="10">The breath of God forms ice,<br/>and the broad waters become frozen.</p>
+        <br/>
+        <p value="11">With thunderbolts he loads the clouds,<br/>and through them scatters his lightning.</p>
+        <br/>
+        <p value="12">At his direction they do their rounds,<br/>upon the face of the habitable world,</p>
+        <br/>
+        <p value="13">whether for punishment or mercy as he commands.</p>
+        <br/>
+        <p value="14">Listen to this, O Job:<br/>pause and consider God’s marvels.</p>
+        <br/>
+        <p value="15">Do you know how he controls the clouds,<br/>how he makes his lightning flash?</p>
+        <br/>
+        <p value="16">Do you know how the clouds hang poised,<br/>all these wonders wrought by his perfect knowledge?</p>
+        <br/>
+        <p value="17">You who swelter in your clothes<br/>when the earth lies still under the south wind,</p>
+        <br/>
+        <p value="18">can you, like him, spread out the skies,<br/>hard as a mirror of molten bronze?</p>
+        <br/>
+        <p value="19">Teach us then what we shall say to him;<br/>we cannot draw up our case because of darkness.</p>
+        <br/>
+        <p value="20">Does it take an angel<br/>to bring this to God’s attention?</p>
+        <br/>
+        <p value="21">A while ago we could not see the light<br/>and the clouds darkened the sky,<br/>but the storm has just cast them out.</p>
+        <br/>
+        <p value="22">A blaze comes from the north,<br/>a dreadful glory around God.</p>
+        <br/>
+        <p value="23">The Almighty is beyond our reach;<br/>exalted in power, great in judgment;<br/>the Master of justice oppresses no one.</p>
+        <br/>
+        <p value="24">Therefore, people revere him;<br/>the wise are nothing in his sight.</p>
+    </chapter>
+    <chapter title="Chapter 38" value="38">
+        <h4>Yahweh answers Job</h4>
+        <br/>
+        <p value="1"><text tips="Jb 38,1 Yahweh answers Job from within the storm clouds, as on Mount Sinai. He does not explain or justify; rather he does the questioning. He does not show off his own wisdom, but forces humans to admit that they do not know anything. Here the author seems to be digressing somewhat from his theme. Carried away by his admiration, he forgets that, first of all he intended to show us God exceeds our ability to understand and to judge. What do our protests and scandals mean: if God existed... They are mere childishness, idle words of those who have no idea of what the word God encompasses. If the entire universe is just the expression or the irradiation of divine Wisdom, who will dare tell God that his way is not reasonable?">1</text>Then Yahweh answered Job out of the storm:</p>
+        <br/>
+        <p value="2">Who is this that obscures divine plans<br/>with ignorant words?</p>
+        <br/>
+        <p value="3">Gird up your loins like a man;<br/>I will question you and you must answer.</p>
+        <br/>
+        <p value="4">Where were you when I founded the earth?<br/>Answer, and show me your knowledge.</p>
+        <br/>
+        <p value="5">Do you know who determined its size,<br/>who stretched out its measuring line?</p>
+        <br/>
+        <p value="6">On what were its bases set?<br/>Who laid its cornerstone,</p>
+        <br/>
+        <p value="7">while the morning stars sang together<br/>and the heavenly beings shouted for joy！</p>
+        <br/>
+        <p value="8">Who shut the sea behind closed doors<br/>when it burst forth from the womb,</p>
+        <br/>
+        <p value="9">when I made the clouds its garment<br/>and thick darkness its swaddling clothes;</p>
+        <br/>
+        <p value="10">when I set its limits<br/>with doors and bars in place,</p>
+        <br/>
+        <p value="11">when I said, “You will not go beyond these bounds;<br/>here is where your proud waves must halt?”</p>
+        <br/>
+        <p value="12">Have you ever commanded the morning,<br/>or shown the dawn its place,</p>
+        <br/>
+        <p value="13">that it might grasp the earth by its edges<br/>and shake the wicked out of it,</p>
+        <br/>
+        <p value="14">when it takes a clay color<br/>and changes its tint like a garment;</p>
+        <br/>
+        <p value="15">when the wicked are denied their own light,<br/>and their proud arm is shattered?</p>
+        <br/>
+        <p value="16">Have you journeyed to where the sea begins<br/>or walked in its deepest recesses?</p>
+        <br/>
+        <p value="17">Have the gates of death been shown to you?<br/>Have you seen the gates of Shadow?</p>
+        <br/>
+        <p value="18">Have you an idea of the breadth of the earth?<br/>Tell me, if you know all this.</p>
+        <br/>
+        <p value="19">Where is the way to the home of light,<br/>and where does darkness dwell?</p>
+        <br/>
+        <p value="20">Can you take them to their own regions,<br/>and set them on their homeward paths?</p>
+        <br/>
+        <p value="21">You know, for you were born before them,<br/>and great is the number of your years!</p>
+        <br/>
+        <p value="22">Have you entered the storehouse of the snow<br/>or seen the storehouse of the hail,</p>
+        <br/>
+        <p value="23">which I reserve for times of woe,<br/>for days of war and battle?</p>
+        <br/>
+        <p value="24">What is the way to the place<br/>where lightning is dispersed,<br/>or the place whence the east wind<br/>begins spreading over the earth?</p>
+        <br/>
+        <p value="25">Who has cut a channel for the torrents of rain,<br/>and a path for the thunderstorm,</p>
+        <br/>
+        <p value="26">to bring rain to no-man’s-land<br/>and to the unpeopled wilderness,</p>
+        <br/>
+        <p value="27">to enrich the wasted and desolate ground,<br/>to make the desert bloom with green?</p>
+        <br/>
+        <p value="28">Does the rain have a father?<br/>Who fathers the drops of dew?</p>
+        <br/>
+        <p value="29">From whose womb comes the ice,<br/>and who gives birth to the frost from the skies,</p>
+        <br/>
+        <p value="30">when the waters lie as hard as stone,<br/>when the surface of the deep is frozen?</p>
+        <br/>
+        <p value="31">Can you bind the chains of the Pleiades,<br/>or loosen the bonds of Orion?</p>
+        <br/>
+        <p value="32">Can you guide the morning star in its season,<br/>or lead the Bear with its train?</p>
+        <br/>
+        <p value="33">Do you know the laws of the heavens,<br/>and can you establish their rule on earth?</p>
+        <br/>
+        <p value="34">Can you raise your voice to the clouds<br/>and order their waters to pour down?</p>
+        <br/>
+        <p value="35">Will lightnings flash at your command<br/>and report to you, “Here we are?”</p>
+        <br/>
+        <p value="36">Who has given the ibis foresight<br/>or endowed the cock with foreknowledge?</p>
+        <br/>
+        <p value="37">Who has the wisdom to count the clouds?<br/>Who tilts the water jars of heaven</p>
+        <br/>
+        <p value="38">so that the dust cakes into a mass<br/>and clods of earth stick together?</p>
+        <br/>
+        <p value="39">Can you hunt the woods to appease<br/>the hunger of the lioness and her whelps,</p>
+        <br/>
+        <p value="40">as they crouch in their dens<br/>or lie in wait in the thicket?</p>
+        <br/>
+        <p value="41">Who provides prey for the raven<br/>when its young cry out to God<br/>and roam about desperate for food?</p>
+    </chapter>
+    <chapter title="Chapter 39" value="39">
+        <p value="1">Do you know how mountain goats breed?<br/>Have you observed the hinds in labor,</p>
+        <br/>
+        <p value="2">numbered the months they must fulfill,<br/>and fixed the time they must give birth?</p>
+        <br/>
+        <p value="3">Have you watched them end their labor<br/>as they crouch and drop their young,</p>
+        <br/>
+        <p value="4">how they wait for them to grow,<br/>until they leave never to return?</p>
+        <br/>
+        <p value="5">Who has given the wild ass his freedom,<br/>and loosed the bonds of the wild donkey?</p>
+        <br/>
+        <p value="6">I have given him the desert for a home,<br/>the salt plains for a shelter.</p>
+        <br/>
+        <p value="7">For he scorns the city’s tumult,<br/>and is free of the driver’s shout and insult;</p>
+        <br/>
+        <p value="8">he prefers the hills for his pasture,<br/>ranging for food in the rich verdure.</p>
+        <br/>
+        <p value="9">Is the wild ox willing to serve you,<br/>to pass the night by your manger?</p>
+        <br/>
+        <p value="10">Can you make him work with a plow or harrow<br/>if you provide him with the proper gear?</p>
+        <br/>
+        <p value="11">Can you rely on his great strength<br/>and leave him to do your heavy work?</p>
+        <br/>
+        <p value="12">Can you depend on him to come home alone,<br/>carrying your grain to your threshing floor?</p>
+        <br/>
+        <p value="13">Can the wing of the ostrich be compared<br/>with the plumage of the stork or falcon?</p>
+        <br/>
+        <p value="14">She lays her eggs on the ground<br/>and lets them warm in the sand,</p>
+        <br/>
+        <p value="15">not knowing that a foot may step on them<br/>or some wild beast may crush them.</p>
+        <br/>
+        <p value="16">Cruel to her chicks as if they were not hers,<br/>she cares not that her labor be in vain,</p>
+        <br/>
+        <p value="17">for God has given her no wisdom<br/>nor a share of good sense.</p>
+        <br/>
+        <p value="18">Yet in the swiftness of foot,<br/>she makes sport of horse and rider.</p>
+        <br/>
+        <p value="19">Is it you who give the horse strength<br/>and clothe his neck with splendor,</p>
+        <br/>
+        <p value="20">who make him leap like a grasshopper<br/>and his proud snorting strike terror?</p>
+        <br/>
+        <p value="21">Rejoicing in his strength, he fiercely paws<br/>and charges into the fray,</p>
+        <br/>
+        <p value="22">afraid of nothing, laughing at fear,<br/>not shying away from the sword.</p>
+        <br/>
+        <p value="23">Against his side rattles the quiver,<br/>along with the lance and flashing spear.</p>
+        <br/>
+        <p value="24">In frenzied excitement he eats up the ground;<br/>there is no holding him when the trumpets sound.</p>
+        <br/>
+        <p value="25">He cries “Hurrah!” at each trumpet blast.<br/>He catches the scent of battle from afar,<br/>the shout of commanders and the battle cry.</p>
+        <br/>
+        <p value="26">Is it by your wisdom that the hawk takes flight<br/>and spreads his wings toward the south?</p>
+        <br/>
+        <p value="27">Is it at your command that eagles fly<br/>and build their nests on high?</p>
+        <br/>
+        <p value="28">They dwell on cliffs and spend the night;<br/>their stronghold is the rocky crag.</p>
+        <br/>
+        <p value="29">From there they look out for food,<br/>which they detect even from afar.</p>
+        <br/>
+        <p value="30">They and their young feast on blood,<br/>and where the slain lie, there they are.</p>
+    </chapter>
+    <chapter title="Chapter 40" value="40">
+        <p value="1"><text tips="Jb 40,1 In questioning Job, Yahweh gets and gives us a few seconds of rest before beginning his second discourse in chapters 40-41. In chapter 40, Behemoth or the hippopotamus appears, enormous, terrible and ugly, eating only plants. Leviathan, the crocodile, whose skin resists arrows just like armor. What a pleasure to find in a few pages of the Bible a poetic expression of the beauty of creation. For centuries prophets and priests had to protect Israel from the seduction of nature. Everywhere around them, the wonders of creation gave rise to the worship of natural forces. When the Jews became firmer in their fidelity to God - the Creator of nature but not identified with it - it became possible to sing the praise of nature.">1</text>Yahweh said to Job:</p>
+        <br/>
+        <p value="2">Must a faultfinder contend with the Almighty?<br/>Let him who would correct God answer.</p>
+        <br/>
+        <p value="3">Job said:</p>
+        <br/>
+        <p value="4">How can I reply, unworthy as I am!<br/>All I can do is put my hand over my mouth.</p>
+        <br/>
+        <p value="5">I have spoken once, now I will not answer;<br/>oh, yes, twice, but I will do no further.</p>
+        <br/>
+        <h4>Yahweh’s discourse continues</h4>
+        <br/>
+        <p value="6">Then Yahweh addressed Job out of the storm:</p>
+        <br/>
+        <p value="7">Gird up your loins like a man;<br/>I will question you, and you must answer.</p>
+        <br/>
+        <p value="8">Would you deny my right<br/>and condemn me that you may be justified?</p>
+        <br/>
+        <p value="9">Have you an arm like that of God,<br/>and can you thunder with a voice like this?</p>
+        <br/>
+        <p value="10">Then adorn yourself with glory and splendor,<br/>array yourself with grandeur and majesty.</p>
+        <br/>
+        <p value="11">Unleash the fury of your wrath;</p>
+        <br/>
+        <p value="12">look for every proud man and abase him;<br/>crush the wicked where they stand.</p>
+        <br/>
+        <p value="13">Bury them all in the dust,<br/>lock them in the dungeon.</p>
+        <br/>
+        <p value="14">If you can do this, I myself will praise you,<br/>admittting that your right hand can save you.</p>
+        <br/>
+        <p value="15">Just think about Behemoth,<br/>who feeds on grass like the ox.</p>
+        <br/>
+        <p value="16">What strength he has in his loins,<br/>what power in the muscles of his belly!</p>
+        <br/>
+        <p value="17">Like a cedar his tail sways,<br/>the sinews of his thighs are like cables.</p>
+        <br/>
+        <p value="18">His bones like tubes of bronze,<br/>his limbs like iron rods.</p>
+        <br/>
+        <p value="19">He is first among the works of God,<br/>created to dominate his companions.</p>
+        <br/>
+        <p value="20">The mountains give him their produce,<br/>as do all the wild beasts who play there.</p>
+        <br/>
+        <p value="21">Under the lotus trees he lies,<br/>hidden among the reeds of the marsh.</p>
+        <br/>
+        <p value="22">The lotus trees cover him with their shade;<br/>the poplar trees on the bank surround him.</p>
+        <br/>
+        <p value="23">He is not alarmed though the river rages and torrents surge against his mouth.</p>
+        <br/>
+        <p value="24">Who can capture him by the eyes,<br/>or trap him and pierce his nose?</p>
+        <br/>
+        <p value="25">Can you pull in Leviathan with a hook,<br/>or curb his tongue with a bit?</p>
+        <br/>
+        <p value="26">Can you put a ring through his nose<br/>or pierce his jaw with a hook?</p>
+        <br/>
+        <p value="27">Will he keep begging you for mercy,<br/>or speak to you with tender words?</p>
+        <br/>
+        <p value="28">Will you make him your slave forever?</p>
+        <br/>
+        <p value="29">Will you make a pet of him like a bird,<br/>or put him on a leash for your maids?</p>
+        <br/>
+        <p value="30">Will traders bargain for him?<br/>Will merchants sell him retail?</p>
+        <br/>
+        <p value="31">Can you fill his hide with harpoons<br/>or his head with fish spears?</p>
+        <br/>
+        <p value="32">Just try and lay a hand on him –<br/>you will not forget the struggle,<br/>and you will never do it again!</p>
+    </chapter>
+    <chapter title="Chapter 41" value="41">
+        <p value="1">Any hope of subduing him is vain, for<br/>the mere sight of him is over powering.</p>
+        <br/>
+        <p value="2">He grows so ferocious when aroused<br/>that no one dares face him.</p>
+        <br/>
+        <p value="3">Who has attacked him and come off unharmed?<br/>No one under the sky.</p>
+        <br/>
+        <p value="4">I need hardly mention his limbs, nor<br/>describe his matchless strength.</p>
+        <br/>
+        <p value="5">Who can strip off his outer garment<br/>and penetrate his double breastplate?</p>
+        <br/>
+        <p value="6">Who can dare open the gates of his mouth<br/>to confront the terrors of his rows of teeth?</p>
+        <br/>
+        <p value="7">Rows of scales are on his back –<br/>rows of shields that are tightly sealed.</p>
+        <br/>
+        <p value="8">So closely fitted are they<br/>that no space intervenes;</p>
+        <br/>
+        <p value="9">so closely joined<br/>that they hold fast and cannot be parted.</p>
+        <br/>
+        <p value="10">Light flashes forth when he sneezes;<br/>like the light of dawn are his eyes.</p>
+        <br/>
+        <p value="11">Flaming torches and sparks of fire flash from his mouth.</p>
+        <br/>
+        <p value="12">Smoke comes from his nostrils,<br/>like hot steam from a boiling pot.</p>
+        <br/>
+        <p value="13">His mere breath sets coals afire,<br/>with the flame pouring from his mouth.</p>
+        <br/>
+        <p value="14">Strength is in his neck,<br/>and terror dances before him.</p>
+        <br/>
+        <p value="15">Tightly set are the folds of his flesh,<br/>firmly cast and immovable.</p>
+        <br/>
+        <p value="16">His heart is hard as stone,<br/>as hard as the lower millstone.</p>
+        <br/>
+        <p value="17">When he rises up, the mighty are terrified,<br/>the waves of the sea fall back.</p>
+        <br/>
+        <p value="18">Should the sword reach him, it will not pierce him,<br/>nor will the spear, the dart, or the javelin.</p>
+        <br/>
+        <p value="19">Iron is to him no more than straw;<br/>and bronze, no more than rotten wood.</p>
+        <br/>
+        <p value="20">Arrows will not put him to flight;<br/>slingstones will be as wisps of hay.</p>
+        <br/>
+        <p value="21">Clubs are as splinters to him;<br/>he laughs at the whirring javelin.</p>
+        <br/>
+        <p value="22">His belly is as sharp as pottery sherds;<br/>he moves across the mire like a harrow.</p>
+        <br/>
+        <p value="23">He churns the depths into a seething caldron;<br/>he makes the sea fume like a burner.</p>
+        <br/>
+        <p value="24">Behind him he leaves a white gleaming wake,<br/>making the deep appear a hoary head of age.</p>
+        <br/>
+        <p value="25">He has no equal on earth:<br/>such a horrible creature he was made!</p>
+        <br/>
+        <p value="26">He makes all, however lofty, afraid;<br/>he is king over all proud beasts.</p>
+    </chapter>
+    <chapter title="Chapter 42" value="42">
+        <p value="1"><text tips="Jb 42,1 Here we have the conclusion of the long dialogues in this book. Now my eyes have seen you. Job's questions about suffering and death have not been answered, but now we realize that it was not essential. God has responded. God has revealed himself and Job has begun to live as someone who has been miraculously freed from his loneliness. The words addressed by God to him seem reproachful, but Job feels better off with a thousand reproaches than with nothing. What Job needed was not a revelation, since God gave him intelligence to investigate these human questions. What he lacked was to see God, and this is the great yearning of the entire Bible: Show us your face and we will be saved (Ps 80:8). Jb 42,7 In the last paragraph (42:10-17) we have the conclusion of the popular story of the holy man Job, begun in 1:1-2:13 (see Introduction). Since he preserved his trust, it was rewarded in the end by the just God. On the contrary, in vv. 7-9, we have a difficult merging between this submissive holy man Job and the other character who occupied most of the book, namely, the Job who argues with God. God prefers Job to his friends who consider themselves more religious because they cover up the scandals of existence and the obscurities of faith. Job is the example of a Christian who courageously looks for an answer to today's problems: my servant Job has spoken properly of me.">1</text>This was the answer Job gave to Yahweh:</p>
+        <br/>
+        <p value="2">I know that you are all powerful;<br/>no plan of yours can be thwarted.</p>
+        <br/>
+        <p value="3">I spoke of things I did not understand,<br/>too wonderful for me to know.</p>
+        <p value="4">*</p>
+        <br/>
+        <p value="5">My ears had heard of you,<br/>but now my eyes have seen you.</p>
+        <br/>
+        <p value="6">Therefore I retract all I have said,<br/>and in dust and ashes I repent.</p>
+        <br/>
+        <h4>The end of Job’s poem</h4>
+        <br/>
+        <p value="7"><text tips="Jb 42,1 Here we have the conclusion of the long dialogues in this book. Now my eyes have seen you. Job's questions about suffering and death have not been answered, but now we realize that it was not essential. God has responded. God has revealed himself and Job has begun to live as someone who has been miraculously freed from his loneliness. The words addressed by God to him seem reproachful, but Job feels better off with a thousand reproaches than with nothing. What Job needed was not a revelation, since God gave him intelligence to investigate these human questions. What he lacked was to see God, and this is the great yearning of the entire Bible: Show us your face and we will be saved (Ps 80:8). Jb 42,7 In the last paragraph (42:10-17) we have the conclusion of the popular story of the holy man Job, begun in 1:1-2:13 (see Introduction). Since he preserved his trust, it was rewarded in the end by the just God. On the contrary, in vv. 7-9, we have a difficult merging between this submissive holy man Job and the other character who occupied most of the book, namely, the Job who argues with God. God prefers Job to his friends who consider themselves more religious because they cover up the scandals of existence and the obscurities of faith. Job is the example of a Christian who courageously looks for an answer to today's problems: my servant Job has spoken properly of me.">2</text>After Yahweh had spoken to Job, he turned to Eliphaz the Temanite, “I am angry with you and your two friends because you have not spoken of me rightly, as has my servant Job.</p>
+        <p value="8">Now, take seven bulls and seven rams, go to my servant Job, offer a holocaust for yourselves and let him pray for you. I will accept his prayer and excuse your folly in not speaking of me properly as my servant Job has done.”</p>
+        <br/>
+        <p value="9">Then Eliphaz the Temanite, Bildad the Shuhite, and Zophar the Naamathite went and did as Yahweh had ordered. Yahweh accepted Job’s intercession.</p>
+        <br/>
+        <h4>Here ends the traditional story of Job</h4>
+        <br/>
+        <p value="10">After Job had prayed for his friends, Yahweh restored his fortunes, giving him twice as much as he had before.</p>
+        <p value="11">All his brothers and sisters and his former friends came to his house and dined with him. They showed him sympathy and comforted him for all the evil that Yahweh had brought to him. Each of them gave him a silver coin and a gold ring.</p>
+        <br/>
+        <p value="12">Yahweh blessed Job’s latter days much more than his earlier ones. He came to own fourteen thousand sheep, six thousand camels, a thousand yoke of oxen, and a thousand she-donkeys.</p>
+        <p value="13">He was also blessed with seven sons and three daughters.</p>
+        <p value="14">The first daughter he named Dove, the second Cinnamon, and the third Bottle of Perfume.</p>
+        <p value="15">Nowhere in the land was there found any woman who could compare in beauty with Job’s daughters. Their father granted them an inheritance along with their brothers.</p>
+        <br/>
+        <p value="16">Job lived a hundred and forty years; he saw his children and their children to the fourth generation.</p>
+        <p value="17">He died old and full of years.</p>
+    </chapter>
+</template>

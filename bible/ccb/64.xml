@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template color="#e47f31" ltitle="New Testament Letter to Philemon" stitle="Phlm" title="Philemon" value="64">
+    <foreword title="Introduction" value="0">
+        <h4>Philemon</h4>
+        <br/>
+        <p>Philemon from Colossae has a slave named Onesimus: a typical name for a slave since Onesimus means “useful” (v. 11). Onesimus escapes and goes to Rome where he expects to disappear in the crowd. Accidentally, or luckily, he meets Paul whom he had known in his master’s house. At this point, Paul is imprisoned in Rome, but enjoys certain privileges en abling him to go out in the company of a policeman. Onesimus is converted and baptized; then Paul makes him go back to his former master with the letter of recommendation that we read here.</p>
+        <br/>
+        <p>Paul asks that the slave be seen as a brother, and even suggests that the slave be freed (v. 21).</p>
+        <br/>
+        <p>We have already seen the advice Paul gives to slaves in Col 3:22. In those first years of the Church, obtaining God’s life in Christ seemed such a tremendous privilege, providing such inner freedom, that being a slave or being free did not greatly matter (see 1Cor 7:17).</p>
+        <br/>
+        <p>At that time no one thought that a change of social structure was feasible: there were slaves and there would always be slaves. The Christians were few and without any influence. Thus, they were not concerned about reforming society, nor about laws to eliminate slavery. Even before the time it became necessary to think about changing the laws, faith was already against treating slaves as “objects” or inferiors: because they were Christians, an increasing number of masters – in the Church – spontaneously renounced their rights and granted freedom to their slaves.</p>
+        <br/>
+        <p>Many people think that the Christian community has nothing to say concerning their responsibilities to society. Here, on the contrary, we see how Paul involves the whole community in Philemon’s problem.</p>
+    </foreword>
+    <chapter title="Chapter 1" value="1">
+        <p value="1">From Paul, a prisoner of Christ Jesus, and from our brother Timothy to Philemon, our friend and fellow worker,</p>
+        <p value="2">to our dear sister Apphia, to Archippus faithful companion in our soldiering, and to all the Church gathered in your house.</p>
+        <br/>
+        <p value="3">Grace and peace be with you from God the Father and Jesus Christ the Lord.</p>
+        <br/>
+        <p value="4">I never cease to give thanks to my God when I remember you in my prayers,</p>
+        <p value="5">for I hear of your love and faith towards the Lord and all the holy ones.</p>
+        <p value="6">And I pray that the sharing of your faith may make known all the good that is ours in Christ.</p>
+        <p value="7">I had great satisfaction and comfort on hearing of your charity, because the hearts of the saints have been cheered by you, brother.</p>
+        <br/>
+        <p value="8">Because of this, although in Christ I have the freedom to command what you should do,</p>
+        <p value="9">yet I prefer to request you in love. The one talking is Paul, the old man, now prisoner for Christ.</p>
+        <p value="10">And my request is on behalf of Onesimus, whose father I have become while I was in prison.</p>
+        <br/>
+        <p value="11">This Onesimus has not been helpful to you, but now he will be helpful both to you and to me.</p>
+        <p value="12">In returning him to you, I am sending you my own heart.</p>
+        <p value="13">I would have liked to keep him at my side, to serve me on your behalf while I am in prison for the Gospel,</p>
+        <p value="14">but I did not want to do anything without your agreement, nor impose a good deed upon you without your free consent.</p>
+        <br/>
+        <p value="15">Perhaps Onesimus has been parted from you for a while so that you may have him back forever,</p>
+        <p value="16">no longer as a slave, but better than a slave. For he is a very dear brother to me, and he will be even dearer to you.</p>
+        <p value="17">And so, because of our friendship, receive him as if he were I myself.</p>
+        <p value="18">And if he has caused any harm, or owes you anything, charge it to me.</p>
+        <p value="19">I, Paul, write this and sign it with my own hand: I will pay it… without further mention of your debt to me, which is you yourself.</p>
+        <p value="20">So, my brother, please do me this favor for the Lord’s sake. Give me this comfort in Christ.</p>
+        <br/>
+        <p value="21">Confident of your obedience I write to you, knowing you will do even more than I ask.</p>
+        <p value="22">And one more thing, get a lodging ready for me because, thanks to all your prayers, I hope to return to you.</p>
+        <br/>
+        <p value="23">Epaphras, my fellow prisoner in Christ Jesus, sends greetings.</p>
+        <p value="24">So do Mark, Aristarchus, Demas and Luke, my assistants.</p>
+        <br/>
+        <p value="25">May the grace of the Lord Christ be with you. Amen!</p>
+    </chapter>
+</template>
