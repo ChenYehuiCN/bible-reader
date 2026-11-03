@@ -1,5 +1,6 @@
 package com.chenyehui.bible
 
+import android.os.Build
 import android.os.Bundle
 import android.view.KeyEvent
 import android.view.inputmethod.InputMethodManager
@@ -24,6 +25,25 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        // The reader is a full-screen text surface. Without a refresh-rate
+        // preference, some OEMs keep ordinary app windows at 60 Hz even on
+        // 120/144 Hz panels, which makes page turns visibly choppier than
+        // other apps. Ask for the panel's highest rate; this is only a hint,
+        // so devices that ignore it simply keep their normal refresh rate.
+        @Suppress("DEPRECATION")
+        val currentDisplay = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            display ?: windowManager.defaultDisplay
+        } else {
+            windowManager.defaultDisplay
+        }
+        val maxRefreshRate = currentDisplay.supportedModes
+            .asSequence()
+            .map { it.refreshRate }
+            .filter { it.isFinite() && it > 0f }
+            .maxOrNull() ?: 60f
+        window.attributes = window.attributes.apply {
+            preferredRefreshRate = maxRefreshRate
+        }
         setContent {
             BibleApp(volumeKeys = volumeKeys)
         }
