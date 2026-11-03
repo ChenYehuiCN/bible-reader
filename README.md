@@ -17,7 +17,8 @@ A quiet, offline Bible reader for Android. Open the app and you are already in t
 - **Three translations** — Muling, Sigao, and CCB English. Switch at any time while keeping the current book and chapter.
 - **Straight into reading** — the reader opens at your last position; there is no book-list home screen.
 - **Full-screen pages** — chapter titles, section headings, and body text use a clear typographic hierarchy. No permanent top or bottom bars.
-- **Natural page turns** — swipe left or right and the page follows your finger. A page turn can be started again before the previous animation ends.
+- **Natural page turns** — swipe left or right and the page follows your finger, including across chapter and book boundaries. A page turn can be started again before the previous animation ends.
+- **Screen stays awake while reading** — the display does not time out while the reading view is open; opening the menu, settings, or the book chooser restores the system's normal screen timeout.
 - **Volume-key paging** — volume up goes to the previous page, volume down to the next.
 - **One menu, three taps away** — tap the center of the screen for a full-screen menu with the chapter grid, book chooser, and settings.
 - **Readable typography** — bundled Sarasa Mono SC (regular and bold), adjustable font size, letter spacing, line spacing, and paragraph spacing. Chinese paragraphs use a two-character first-line indent; English paragraphs use a 1.5 em indent.
