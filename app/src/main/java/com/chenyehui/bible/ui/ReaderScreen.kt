@@ -1,5 +1,6 @@
 package com.chenyehui.bible.ui
 
+import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.animate
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
@@ -17,10 +18,12 @@ import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.mutableStateMapOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
@@ -31,6 +34,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.platform.LocalView
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.unit.dp
@@ -48,19 +52,39 @@ import com.chenyehui.bible.data.chapterDisplayTitle
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import kotlin.math.abs
+import kotlin.math.roundToInt
+
+/** A full page turn takes this long; partial turns keep the same page speed. */
+private const val PAGE_TURN_DURATION_MS = 180
+
+private const val LAYOUT_CACHE_SIZE = 8
 
 private enum class TurnDirection { Forward, Backward }
 
-private data class TurnTarget(
-    val direction: TurnDirection,
+/** A chapter together with the layout that was measured for it. */
+private data class ChapterLocation(
+    val bookMeta: BookMeta,
+    val chapters: List<Chapter>,
     val chapterIndex: Int,
-    val pageIndex: Int,
     val layout: ChapterLayout,
 )
+
+private data class TurnTarget(
+    val direction: TurnDirection,
+    val page: ChapterLocation,
+    val pageIndex: Int,
+)
+
+private data class LayoutKey(val bookId: Int, val chapterNumber: Int)
+
+/** Linear easing plus a duration proportional to the distance still to cover. */
+private fun turnDurationMs(remainingFraction: Float): Int =
+    (PAGE_TURN_DURATION_MS * remainingFraction.coerceIn(0f, 1f)).roundToInt()
 
 private data class VisualTurn(
     val direction: TurnDirection,
@@ -113,23 +137,62 @@ fun ReaderScreen(
     var seekLastPage by remember { mutableStateOf(false) }
     var sheetTab by remember { mutableStateOf<ReaderMenuTab?>(null) }
 
-    var book by remember(translation.id, bookMeta.id) { mutableStateOf<Book?>(null) }
-    var loadError by remember(translation.id, bookMeta.id) { mutableStateOf<String?>(null) }
-    var reloadKey by remember(translation.id, bookMeta.id) { mutableIntStateOf(0) }
+    // Books are kept in a map rather than a single nullable slot so a page turn
+    // can cross a book boundary without falling through the loading state and
+    // losing the running animation. Neighbouring books are prefetched.
+    val bookCache = remember(translation.id) { mutableStateMapOf<Int, Book>() }
+    var loadError by remember(translation.id) { mutableStateOf<String?>(null) }
+    var reloadKey by remember(translation.id) { mutableIntStateOf(0) }
+
+    val bookPosition = translation.books.indexOfFirst { it.id == bookMeta.id }.coerceAtLeast(0)
+    val previousBookMeta = translation.books.getOrNull(bookPosition - 1)
+    val nextBookMeta = translation.books.getOrNull(bookPosition + 1)
+
+    fun cacheBook(loaded: Book) {
+        bookCache[loaded.id] = loaded
+    }
 
     LaunchedEffect(translation.id, bookMeta.id, reloadKey) {
-        book = null
         loadError = null
-        try {
-            book = withContext(Dispatchers.IO) {
-                repository.book(translation.id, bookMeta.id)
+        val currentId = bookMeta.id
+        if (bookCache[currentId] == null) {
+            try {
+                cacheBook(
+                    withContext(Dispatchers.IO) {
+                        repository.book(translation.id, currentId)
+                    },
+                )
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                loadError = e.message ?: e.javaClass.simpleName
             }
-        } catch (e: CancellationException) {
-            throw e
-        } catch (e: Exception) {
-            loadError = e.message ?: e.javaClass.simpleName
+        }
+        // A turn across a chapter/book boundary needs the neighbour's first or
+        // last chapter immediately, so keep both adjacent books loaded.
+        if (bookCache[currentId] != null) {
+            listOfNotNull(previousBookMeta, nextBookMeta).forEach { meta ->
+                if (bookCache[meta.id] == null) {
+                    launch {
+                        try {
+                            cacheBook(
+                                withContext(Dispatchers.IO) {
+                                    repository.book(translation.id, meta.id)
+                                },
+                            )
+                        } catch (e: CancellationException) {
+                            throw e
+                        } catch (_: Exception) {
+                            // A failed prefetch only means the boundary turn
+                            // falls back to the normal loading path.
+                        }
+                    }
+                }
+            }
         }
     }
+
+    val book = bookCache[bookMeta.id]
 
     LaunchedEffect(book) {
         val loaded = book ?: return@LaunchedEffect
@@ -143,13 +206,20 @@ fun ReaderScreen(
     val chapters = book?.chapters.orEmpty()
     val chapterIndex = chapters.indexOfFirst { it.number == chapterNumber }.coerceAtLeast(0)
     val currentChapter = chapters.getOrNull(chapterIndex)
-    val previousChapter = chapters.getOrNull(chapterIndex - 1)
-    val nextChapter = chapters.getOrNull(chapterIndex + 1)
 
+    val previousBook = previousBookMeta?.let { bookCache[it.id] }
+    val nextBook = nextBookMeta?.let { bookCache[it.id] }
 
-    val bookPosition = translation.books.indexOfFirst { it.id == bookMeta.id }.coerceAtLeast(0)
-    val previousBookMeta = translation.books.getOrNull(bookPosition - 1)
-    val nextBookMeta = translation.books.getOrNull(bookPosition + 1)
+    // Only the current book and its two neighbours are needed for page turns;
+    // drop anything else so walking through the whole canon stays small.
+    LaunchedEffect(bookMeta.id, previousBookMeta?.id, nextBookMeta?.id) {
+        val keep = listOfNotNull(
+            bookMeta.id,
+            previousBookMeta?.id,
+            nextBookMeta?.id,
+        ).toSet()
+        bookCache.keys.filter { it !in keep }.forEach { bookCache.remove(it) }
+    }
 
     fun switchBook(meta: BookMeta, lastChapter: Boolean) {
         bookMeta = meta
@@ -173,6 +243,19 @@ fun ReaderScreen(
         seekLastPage = false
         onTranslationChanged(next.id)
         sheetTab = null
+    }
+
+    // Keep the screen awake only while the text itself is on screen. The menu,
+    // book picker, loading and error states leave it to the system to lock.
+    val reading = sheetTab == null &&
+        loadError == null &&
+        book != null &&
+        currentChapter != null &&
+        pageCount > 0
+    val view = LocalView.current
+    DisposableEffect(view, reading) {
+        view.keepScreenOn = reading
+        onDispose { view.keepScreenOn = false }
     }
 
     Box(
@@ -231,10 +314,24 @@ fun ReaderScreen(
                         )
                     }
 
-                    fun layoutFor(chapter: Chapter?): ChapterLayout? = chapter?.let {
-                        buildChapterLayout(
-                            chapter = it,
-                            title = chapterDisplayTitle(translation.language, it.number),
+                    val layoutCache = remember(
+                        translation.id,
+                        style,
+                        paragraphSpacing,
+                        density,
+                        widthPx,
+                        heightPx,
+                    ) {
+                        LinkedHashMap<LayoutKey, ChapterLayout>(16, 0.75f, true)
+                    }
+
+                    fun layoutFor(meta: BookMeta?, chapter: Chapter?): ChapterLayout? {
+                        if (meta == null || chapter == null) return null
+                        val key = LayoutKey(meta.id, chapter.number)
+                        layoutCache[key]?.let { return it }
+                        val built = buildChapterLayout(
+                            chapter = chapter,
+                            title = chapterDisplayTitle(translation.language, chapter.number),
                             language = translation.language,
                             fontSize = fontSize,
                             textColor = palette.readerText,
@@ -248,9 +345,16 @@ fun ReaderScreen(
                             widthPx = widthPx,
                             heightPx = heightPx,
                         )
+                        layoutCache[key] = built
+                        if (layoutCache.size > LAYOUT_CACHE_SIZE) {
+                            layoutCache.keys.firstOrNull()?.let { layoutCache.remove(it) }
+                        }
+                        return built
                     }
 
                     val currentLayout = remember(
+                        translation.id,
+                        bookMeta.id,
                         currentChapter,
                         style,
                         paragraphSpacing,
@@ -258,27 +362,27 @@ fun ReaderScreen(
                         widthPx,
                         heightPx,
                     ) {
-                        layoutFor(currentChapter)
+                        layoutFor(bookMeta, currentChapter)
                     }
-                    val previousLayout = remember(
-                        previousChapter,
-                        style,
-                        paragraphSpacing,
-                        density,
-                        widthPx,
-                        heightPx,
-                    ) {
-                        layoutFor(previousChapter)
+
+                    // Neighbours already include the next/previous book at a
+                    // book boundary, so a cross-book turn is just another turn.
+                    // Their layouts are not measured during composition: that
+                    // would stall the first frame of the turn into a new
+                    // chapter. They are built while the reader is idle instead.
+                    val previousChapterMeta = if (chapterIndex > 0) bookMeta else previousBookMeta
+                    val previousChapter = if (chapterIndex > 0) {
+                        chapters.getOrNull(chapterIndex - 1)
+                    } else {
+                        previousBook?.chapters?.lastOrNull()
                     }
-                    val nextLayout = remember(
-                        nextChapter,
-                        style,
-                        paragraphSpacing,
-                        density,
-                        widthPx,
-                        heightPx,
-                    ) {
-                        layoutFor(nextChapter)
+
+                    val nextChapterMeta =
+                        if (chapterIndex < chapters.lastIndex) bookMeta else nextBookMeta
+                    val nextChapter = if (chapterIndex < chapters.lastIndex) {
+                        chapters.getOrNull(chapterIndex + 1)
+                    } else {
+                        nextBook?.chapters?.firstOrNull()
                     }
 
                     if (currentLayout == null) {
@@ -298,6 +402,31 @@ fun ReaderScreen(
                         var visualTurn by remember { mutableStateOf<VisualTurn?>(null) }
                         var progress by remember { mutableFloatStateOf(0f) }
                         var animationJob by remember { mutableStateOf<Job?>(null) }
+
+                        // Measure neighbouring chapters while the reader is
+                        // idle. Starting another turn cancels this effect, so
+                        // the work never lands in the middle of an animation.
+                        LaunchedEffect(
+                            bookMeta.id,
+                            chapterNumber,
+                            previousChapterMeta?.id,
+                            previousChapter?.number,
+                            nextChapterMeta?.id,
+                            nextChapter?.number,
+                            visualTurn,
+                            pageRestored,
+                            currentLayout,
+                        ) {
+                            if (!pageRestored || visualTurn != null) {
+                                return@LaunchedEffect
+                            }
+                            delay(120)
+                            if (visualTurn != null) return@LaunchedEffect
+                            previousChapter?.let { layoutFor(previousChapterMeta, it) }
+                            delay(16)
+                            if (visualTurn != null) return@LaunchedEffect
+                            nextChapter?.let { layoutFor(nextChapterMeta, it) }
+                        }
 
                         LaunchedEffect(currentLayout) {
                             pageCount = currentPages.size
@@ -329,57 +458,102 @@ fun ReaderScreen(
                             )
                         }
 
-                        fun targetFor(direction: TurnDirection): TurnTarget? = when (direction) {
-                            TurnDirection.Forward -> when {
-                                pageIndex < currentPages.lastIndex -> TurnTarget(
-                                    direction = TurnDirection.Forward,
-                                    chapterIndex = chapterIndex,
-                                    pageIndex = pageIndex + 1,
-                                    layout = currentLayout,
-                                )
-
-                                nextLayout != null && nextLayout.pages.isNotEmpty() -> TurnTarget(
-                                    direction = TurnDirection.Forward,
-                                    chapterIndex = chapterIndex + 1,
-                                    pageIndex = 0,
-                                    layout = nextLayout,
-                                )
-
-                                else -> null
+                        // Built on demand if the idle prefetch above has not
+                        // reached the neighbour yet, so a turn never has to
+                        // swap in a loading screen.
+                        fun previousLocation(): ChapterLocation? {
+                            val chapter = previousChapter ?: return null
+                            val meta = previousChapterMeta ?: return null
+                            val targetChapters = if (chapterIndex > 0) {
+                                chapters
+                            } else {
+                                previousBook?.chapters ?: return null
                             }
+                            val index = if (chapterIndex > 0) {
+                                chapterIndex - 1
+                            } else {
+                                targetChapters.lastIndex
+                            }
+                            val layout = layoutFor(meta, chapter) ?: return null
+                            return ChapterLocation(meta, targetChapters, index, layout)
+                        }
 
-                            TurnDirection.Backward -> when {
-                                pageIndex > 0 -> TurnTarget(
-                                    direction = TurnDirection.Backward,
-                                    chapterIndex = chapterIndex,
-                                    pageIndex = pageIndex - 1,
-                                    layout = currentLayout,
-                                )
+                        fun nextLocation(): ChapterLocation? {
+                            val chapter = nextChapter ?: return null
+                            val meta = nextChapterMeta ?: return null
+                            val targetChapters = if (chapterIndex < chapters.lastIndex) {
+                                chapters
+                            } else {
+                                nextBook?.chapters ?: return null
+                            }
+                            val index = if (chapterIndex < chapters.lastIndex) {
+                                chapterIndex + 1
+                            } else {
+                                0
+                            }
+                            val layout = layoutFor(meta, chapter) ?: return null
+                            return ChapterLocation(meta, targetChapters, index, layout)
+                        }
 
-                                previousLayout != null && previousLayout.pages.isNotEmpty() ->
-                                    TurnTarget(
-                                        direction = TurnDirection.Backward,
-                                        chapterIndex = chapterIndex - 1,
-                                        pageIndex = previousLayout.pages.lastIndex,
-                                        layout = previousLayout,
+                        fun targetFor(direction: TurnDirection): TurnTarget? {
+                            val currentLocation =
+                                ChapterLocation(bookMeta, chapters, chapterIndex, currentLayout)
+                            return when (direction) {
+                                TurnDirection.Forward -> when {
+                                    pageIndex < currentPages.lastIndex -> TurnTarget(
+                                        direction = TurnDirection.Forward,
+                                        page = currentLocation,
+                                        pageIndex = pageIndex + 1,
                                     )
 
-                                else -> null
+                                    else -> nextLocation()
+                                        ?.takeIf { it.layout.pages.isNotEmpty() }
+                                        ?.let { next ->
+                                            TurnTarget(
+                                                direction = TurnDirection.Forward,
+                                                page = next,
+                                                pageIndex = 0,
+                                            )
+                                        }
+                                }
+
+                                TurnDirection.Backward -> when {
+                                    pageIndex > 0 -> TurnTarget(
+                                        direction = TurnDirection.Backward,
+                                        page = currentLocation,
+                                        pageIndex = pageIndex - 1,
+                                    )
+
+                                    else -> previousLocation()
+                                        ?.takeIf { it.layout.pages.isNotEmpty() }
+                                        ?.let { previous ->
+                                            TurnTarget(
+                                                direction = TurnDirection.Backward,
+                                                page = previous,
+                                                pageIndex = previous.layout.pages.lastIndex,
+                                            )
+                                        }
+                                }
                             }
                         }
 
                         fun commitLogical(target: TurnTarget) {
-                            val targetPage = target.layout.pages.getOrNull(target.pageIndex)
+                            val targetPage = target.page.layout.pages.getOrNull(target.pageIndex)
                                 ?: return
-                            val targetChapterNumber = chapters[target.chapterIndex].number
+                            val targetBookMeta = target.page.bookMeta
+                            val targetChapterNumber =
+                                target.page.chapters[target.page.chapterIndex].number
                             anchorOffset = targetPage.start
-                            if (target.chapterIndex != chapterIndex) {
+                            if (targetBookMeta.id != bookMeta.id) {
+                                bookMeta = targetBookMeta
+                            }
+                            if (targetChapterNumber != chapterNumber) {
                                 chapterNumber = targetChapterNumber
                             }
                             pageIndex = target.pageIndex
                             onProgressChanged(
                                 translation.id,
-                                bookMeta.id,
+                                targetBookMeta.id,
                                 targetChapterNumber,
                                 targetPage.start,
                             )
@@ -402,7 +576,10 @@ fun ReaderScreen(
                                 animate(
                                     initialValue = progress,
                                     targetValue = target,
-                                    animationSpec = tween(durationMillis = duration),
+                                    animationSpec = tween(
+                                        durationMillis = duration,
+                                        easing = LinearEasing,
+                                    ),
                                 ) { value, _ ->
                                     progress = value
                                 }
@@ -421,7 +598,7 @@ fun ReaderScreen(
                         ): VisualTurn = if (direction == TurnDirection.Forward) {
                             VisualTurn(
                                 direction = TurnDirection.Forward,
-                                baseLayout = target.layout,
+                                baseLayout = target.page.layout,
                                 basePage = target.pageIndex,
                                 movingLayout = oldLayout,
                                 movingPage = oldPage,
@@ -431,7 +608,7 @@ fun ReaderScreen(
                                 direction = TurnDirection.Backward,
                                 baseLayout = oldLayout,
                                 basePage = oldPage,
-                                movingLayout = target.layout,
+                                movingLayout = target.page.layout,
                                 movingPage = target.pageIndex,
                             )
                         }
@@ -454,7 +631,7 @@ fun ReaderScreen(
                             val visual = visualFor(direction, oldLayout, oldPage, target)
                             visualTurn = visual
                             progress = 0f
-                            animateVisualTo(visual, 1f, 230)
+                            animateVisualTo(visual, 1f, PAGE_TURN_DURATION_MS)
                         }
 
                         val latestPageTurn = rememberUpdatedState<(TurnDirection) -> Unit> {
@@ -475,13 +652,6 @@ fun ReaderScreen(
                         }
 
                         val visual = visualTurn
-                        val movingOffset = when {
-                            visual == null -> 0f
-                            visual.direction == TurnDirection.Forward ->
-                                -widthPx.toFloat() * progress
-
-                            else -> -widthPx.toFloat() + widthPx.toFloat() * progress
-                        }
 
                         Box(
                             modifier = Modifier
@@ -585,7 +755,7 @@ fun ReaderScreen(
                                             animateVisualTo(
                                                 visual = dragVisual,
                                                 target = 1f,
-                                                duration = 180,
+                                                duration = turnDurationMs(1f - progress),
                                             )
                                         } else if (boundarySwipe && dragDirection != null) {
                                             if (dragDirection == TurnDirection.Forward) {
@@ -616,7 +786,18 @@ fun ReaderScreen(
                                 Box(
                                     modifier = Modifier
                                         .fillMaxSize()
-                                        .graphicsLayer { translationX = movingOffset }
+                                        .graphicsLayer {
+                                            // Read the animation value in the layer
+                                            // block so a page turn only moves a render
+                                            // node instead of recomposing the reader.
+                                            translationX = when (visual.direction) {
+                                                TurnDirection.Forward ->
+                                                    -size.width * progress
+
+                                                TurnDirection.Backward ->
+                                                    -size.width * (1f - progress)
+                                            }
+                                        }
                                         .background(palette.readerBackground),
                                 ) {
                                     PageCanvas(
