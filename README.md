@@ -21,7 +21,7 @@ A quiet, offline Bible reader for Android. Open the app and you are already in t
 - **Screen stays awake while reading** — the display does not time out while the reading view is open; opening the menu, settings, or the book chooser restores the system's normal screen timeout.
 - **Volume-key paging** — volume up goes to the previous page, volume down to the next.
 - **One menu, three taps away** — tap the center of the screen for a full-screen menu with the chapter grid, book chooser, and settings.
-- **Readable typography** — bundled Sarasa Mono SC (regular and bold), adjustable font size, letter spacing, line spacing, and paragraph spacing. Chinese paragraphs use a two-character first-line indent; English paragraphs use a 1.5 em indent.
+- **Readable typography** — bundled Sarasa Mono SC (regular and bold), adjustable font size, letter spacing, line spacing, and paragraph spacing. Chinese paragraphs use a two-character first-line indent; English paragraphs use a 1.5 em indent. The monospaced character column is centered with equal left and right margins.
 - **Bilingual interface** — follow the system language or choose Chinese/English manually. The interface, page labels, counts, and settings are localized; Scripture text and book names follow the selected translation.
 - **Light, dark, or system theme** — the reading surface and menus support all three. The app's chrome is deliberately monochrome.
 - **Your place is remembered** — reading position is saved by character offset and restored across restarts.

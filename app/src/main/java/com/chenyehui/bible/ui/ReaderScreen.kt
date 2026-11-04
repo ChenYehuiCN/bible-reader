@@ -267,11 +267,19 @@ fun ReaderScreen(
             modifier = Modifier
                 .fillMaxSize()
                 .systemBarsPadding()
-                .displayCutoutPadding()
-                .padding(horizontal = 20.dp, vertical = 8.dp),
+                .displayCutoutPadding(),
         ) {
-            val widthPx = constraints.maxWidth
-            val heightPx = constraints.maxHeight
+            val pageHorizontalPadding = 20.dp
+            val pageVerticalPadding = 8.dp
+            val density = LocalDensity.current
+            val widthPx = (
+                constraints.maxWidth -
+                    with(density) { pageHorizontalPadding.toPx() } * 2f
+                ).toInt()
+            val heightPx = (
+                constraints.maxHeight -
+                    with(density) { pageVerticalPadding.toPx() } * 2f
+                ).toInt()
 
             when {
                 loadError != null -> ReaderMessage(
@@ -299,7 +307,6 @@ fun ReaderScreen(
 
                 else -> {
                     val textMeasurer = rememberTextMeasurer()
-                    val density = LocalDensity.current
                     val style = remember(fontSize, letterSpacing, lineSpacingExtra, palette) {
                         TextStyle(
                             fontFamily = MonoFamily,
@@ -669,6 +676,9 @@ fun ReaderScreen(
                                         val centerTapSlop = 8f
                                         var totalX = 0f
                                         var totalY = 0f
+                                        var previousX = down.position.x
+                                        var lastHorizontalDelta = 0f
+                                        var maxAbsTotalX = 0f
                                         var dragStarted = false
                                         var dragDirection: TurnDirection? = null
                                         var dragTarget: TurnTarget? = null
@@ -679,9 +689,16 @@ fun ReaderScreen(
                                             val event = awaitPointerEvent()
                                             val change = event.changes
                                                 .firstOrNull { it.id == down.id } ?: break
-                                            if (!change.pressed) break
+                                            val isUp = !change.pressed
                                             totalX = change.position.x - down.position.x
                                             totalY = change.position.y - down.position.y
+                                            val deltaX = change.position.x - previousX
+                                            previousX = change.position.x
+                                            if (!isUp && deltaX != 0f) {
+                                                lastHorizontalDelta = deltaX
+                                            }
+                                            maxAbsTotalX = maxOf(maxAbsTotalX, abs(totalX))
+                                            if (isUp) break
 
                                             if (
                                                 !dragStarted &&
@@ -732,6 +749,12 @@ fun ReaderScreen(
                                             }
                                         }
 
+                                        val lastMovesOpposite = when (dragDirection) {
+                                            TurnDirection.Forward -> lastHorizontalDelta > 0f
+                                            TurnDirection.Backward -> lastHorizontalDelta < 0f
+                                            null -> false
+                                        }
+
                                         if (!dragStarted) {
                                             if (
                                                 abs(totalX) <= viewConfiguration.touchSlop &&
@@ -743,7 +766,7 @@ fun ReaderScreen(
                                             }
                                         } else if (
                                             downInCenter &&
-                                            abs(totalX) < centerTapSlop &&
+                                            maxAbsTotalX < centerTapSlop &&
                                             abs(totalY) < centerTapSlop
                                         ) {
                                             // A centre tap with a little finger jitter is
@@ -751,20 +774,37 @@ fun ReaderScreen(
                                             finishVisualNow()
                                             sheetTab = ReaderMenuTab.Directory
                                         } else if (dragTarget != null && dragVisual != null) {
-                                            commitLogical(dragTarget)
-                                            animateVisualTo(
-                                                visual = dragVisual,
-                                                target = 1f,
-                                                duration = turnDurationMs(1f - progress),
-                                            )
-                                        } else if (boundarySwipe && dragDirection != null) {
-                                            if (dragDirection == TurnDirection.Forward) {
-                                                nextBookMeta?.let {
-                                                    switchBook(it, lastChapter = false)
+                                            if (lastMovesOpposite) {
+                                                // The finger's last movement is back
+                                                // towards where it started: follow it
+                                                // home instead of committing the turn.
+                                                if (progress > 0f) {
+                                                    animateVisualTo(
+                                                        visual = dragVisual,
+                                                        target = 0f,
+                                                        duration = turnDurationMs(progress),
+                                                    )
+                                                } else {
+                                                    finishVisualNow()
                                                 }
                                             } else {
-                                                previousBookMeta?.let {
-                                                    switchBook(it, lastChapter = true)
+                                                commitLogical(dragTarget)
+                                                animateVisualTo(
+                                                    visual = dragVisual,
+                                                    target = 1f,
+                                                    duration = turnDurationMs(1f - progress),
+                                                )
+                                            }
+                                        } else if (boundarySwipe && dragDirection != null) {
+                                            if (!lastMovesOpposite) {
+                                                if (dragDirection == TurnDirection.Forward) {
+                                                    nextBookMeta?.let {
+                                                        switchBook(it, lastChapter = false)
+                                                    }
+                                                } else {
+                                                    previousBookMeta?.let {
+                                                        switchBook(it, lastChapter = true)
+                                                    }
                                                 }
                                             }
                                         }
@@ -775,13 +815,23 @@ fun ReaderScreen(
                                 PageCanvas(
                                     layout = currentLayout,
                                     pageIndex = pageIndex,
-                                    modifier = Modifier.fillMaxSize(),
+                                    modifier = Modifier
+                                        .fillMaxSize()
+                                        .padding(
+                                            horizontal = pageHorizontalPadding,
+                                            vertical = pageVerticalPadding,
+                                        ),
                                 )
                             } else {
                                 PageCanvas(
                                     layout = visual.baseLayout,
                                     pageIndex = visual.basePage,
-                                    modifier = Modifier.fillMaxSize(),
+                                    modifier = Modifier
+                                        .fillMaxSize()
+                                        .padding(
+                                            horizontal = pageHorizontalPadding,
+                                            vertical = pageVerticalPadding,
+                                        ),
                                 )
                                 Box(
                                     modifier = Modifier
@@ -803,7 +853,12 @@ fun ReaderScreen(
                                     PageCanvas(
                                         layout = visual.movingLayout,
                                         pageIndex = visual.movingPage,
-                                        modifier = Modifier.fillMaxSize(),
+                                        modifier = Modifier
+                                            .fillMaxSize()
+                                            .padding(
+                                                horizontal = pageHorizontalPadding,
+                                                vertical = pageVerticalPadding,
+                                            ),
                                     )
                                 }
                             }

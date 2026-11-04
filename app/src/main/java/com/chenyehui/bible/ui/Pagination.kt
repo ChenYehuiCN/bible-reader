@@ -62,11 +62,20 @@ fun buildChapterBlockSpecs(
     mutedColor: Color,
     baseStyle: TextStyle,
     density: Density,
+    characterCellWidthPx: Float,
 ): List<ChapterBlockSpec> {
     val factor = AppPrefs.BASE_LINE_HEIGHT + lineSpacingExtra
     val bodyLineHeight = baseFontSize * factor
     val bodyLineHeightPx = with(density) { bodyLineHeight.sp.toPx() }
     val paragraphGapPx = with(density) { (paragraphSpacing * baseFontSize).sp.toPx() }
+    val cellWidthPx = characterCellWidthPx.takeIf { it > 0f }
+        ?: (baseFontSize * density.density * density.fontScale)
+    val firstLineIndentSp = if (language == "zh") {
+        // Exactly two monospaced character cells, not two font-size ems.
+        cellWidthPx * 2f / (density.density * density.fontScale)
+    } else {
+        baseFontSize * 1.5f
+    }
 
     val raws = ArrayList<RawChunk>()
     if (chapterTitle.isNotBlank()) {
@@ -140,7 +149,7 @@ fun buildChapterBlockSpecs(
                 verses = raw.verses,
                 language = language,
                 textColor = textColor,
-                indentSp = baseFontSize * if (language == "en") 1.5f else 2f,
+                indentSp = firstLineIndentSp,
             ) to baseStyle.copy(color = textColor)
         }
         ChapterBlockSpec(
