@@ -32,8 +32,8 @@ android {
         applicationId = "com.chenyehui.bible"
         minSdk = 26
         targetSdk = 37
-        versionCode = 12
-        versionName = "1.8.3"
+        versionCode = 13
+        versionName = "1.8.4"
     }
 
     buildTypes {

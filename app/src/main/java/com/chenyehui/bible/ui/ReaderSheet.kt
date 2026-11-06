@@ -124,6 +124,8 @@ fun ReaderMenu(
                 ) {
                     MenuTopBar(
                         title = book.title,
+                        subtitle = "${chapterDisplayTitle(translation.language, chapter)} · " +
+                            pageLabel,
                         onBack = onDismiss,
                         trailing = strings.translationShort(translation),
                     )
@@ -135,14 +137,7 @@ fun ReaderMenu(
                             .padding(horizontal = 20.dp)
                             .padding(bottom = 12.dp),
                     ) {
-                        Spacer(Modifier.height(8.dp))
-                        Text(
-                            text = "${chapterDisplayTitle(translation.language, chapter)} · " +
-                                pageLabel,
-                            style = MaterialTheme.typography.labelSmall,
-                            color = palette.uiMuted,
-                        )
-                        Spacer(Modifier.height(10.dp))
+                        Spacer(Modifier.height(12.dp))
                         Row(verticalAlignment = Alignment.CenterVertically) {
                             ChoiceChip(
                                 text = strings.directory,
@@ -447,28 +442,42 @@ private fun MenuTopBar(
     title: String,
     onBack: () -> Unit,
     trailing: String,
+    subtitle: String? = null,
 ) {
     val palette = LocalBiblePalette.current
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .height(56.dp)
+            .height(if (subtitle != null) 72.dp else 56.dp)
             .padding(start = 4.dp, end = 16.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         TextIconButton(label = "←", onClick = onBack, fontSize = 22)
-        Text(
-            text = title,
-            style = MaterialTheme.typography.titleLarge.copy(
-                fontWeight = FontWeight.SemiBold,
-            ),
-            color = palette.uiText,
-            maxLines = 1,
-            overflow = TextOverflow.Ellipsis,
+        Column(
             modifier = Modifier
                 .weight(1f)
                 .padding(horizontal = 4.dp),
-        )
+        ) {
+            Text(
+                text = title,
+                style = MaterialTheme.typography.titleLarge.copy(
+                    fontWeight = FontWeight.SemiBold,
+                ),
+                color = palette.uiText,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
+            )
+            if (subtitle != null) {
+                Spacer(Modifier.height(4.dp))
+                Text(
+                    text = subtitle,
+                    style = MaterialTheme.typography.labelSmall,
+                    color = palette.uiMuted,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                )
+            }
+        }
         Text(
             text = trailing,
             style = MaterialTheme.typography.labelSmall,

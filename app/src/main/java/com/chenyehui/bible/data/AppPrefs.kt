@@ -127,7 +127,7 @@ class AppPrefs(context: Context) {
         const val MIN_LETTER_SPACING = 0f
         const val MAX_LETTER_SPACING = 2f
 
-        const val DEFAULT_LINE_SPACING_EXTRA = 0.1f
+        const val DEFAULT_LINE_SPACING_EXTRA = 0.0f
         const val MIN_LINE_SPACING_EXTRA = 0f
         const val MAX_LINE_SPACING_EXTRA = 1f
 

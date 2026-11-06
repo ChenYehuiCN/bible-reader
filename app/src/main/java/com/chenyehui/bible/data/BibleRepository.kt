@@ -30,7 +30,10 @@ class BibleRepository(private val context: Context) {
         val text = context.assets.open(path)
             .bufferedReader(Charsets.UTF_8)
             .use { it.readText() }
-        val book = parseBook(JSONObject(text))
+        val book = parseBook(
+            root = JSONObject(text),
+            stripPinyin = versionId == "muling" || versionId == "sigao",
+        )
         bookCache.put(key, book)
         return book
     }
@@ -63,7 +66,10 @@ class BibleRepository(private val context: Context) {
         return Manifest(versions)
     }
 
-    private fun parseBook(root: JSONObject): Book {
+    private fun parseBook(root: JSONObject, stripPinyin: Boolean): Book {
+        fun content(value: String): String =
+            if (stripPinyin) stripPinyinAnnotations(value) else value
+
         val chaptersArray = root.getJSONArray("chapters")
         val chapters = ArrayList<Chapter>(chaptersArray.length())
         for (i in 0 until chaptersArray.length()) {
@@ -75,11 +81,11 @@ class BibleRepository(private val context: Context) {
                 when (block.getString(0)) {
                     "v" -> blocks += Block.Verse(
                         number = block.getInt(1),
-                        text = block.getString(2),
+                        text = content(block.getString(2)),
                     )
 
-                    "h3" -> blocks += Block.Heading(3, block.getString(1))
-                    "h4" -> blocks += Block.Heading(4, block.getString(1))
+                    "h3" -> blocks += Block.Heading(3, content(block.getString(1)))
+                    "h4" -> blocks += Block.Heading(4, content(block.getString(1)))
                     "br" -> blocks += Block.ParagraphBreak
                     else -> error("Unknown block type: ${block.getString(0)}")
                 }

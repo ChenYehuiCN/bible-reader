@@ -228,7 +228,6 @@ fun ReaderScreen(
         pageIndex = 0
         pageCount = 0
         seekLastPage = lastChapter
-        sheetTab = null
     }
 
     fun switchTranslation(newId: String) {
@@ -242,7 +241,6 @@ fun ReaderScreen(
         pageCount = 0
         seekLastPage = false
         onTranslationChanged(next.id)
-        sheetTab = null
     }
 
     // Keep the screen awake only while the text itself is on screen. The menu,
@@ -891,7 +889,6 @@ fun ReaderScreen(
                         anchorOffset = 0
                         pageIndex = 0
                     }
-                    sheetTab = null
                 },
                 onTranslationChange = ::switchTranslation,
                 onBookSelected = { id ->
